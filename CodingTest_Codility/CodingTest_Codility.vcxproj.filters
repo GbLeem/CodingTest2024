@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\1">
+      <UniqueIdentifier>{d395f122-7745-46d0-849c-c89f862ab1e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2">
+      <UniqueIdentifier>{594a1027-59ed-4fba-ba81-5373c97c63c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3">
+      <UniqueIdentifier>{eb11c3ba-ca20-4b10-a36b-898b7879218e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4">
+      <UniqueIdentifier>{5140dd5e-9e08-43dd-87df-24b2fc409433}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lesson1\BinaryGap.cpp">
+      <Filter>소스 파일\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson2\OddOccurrencesInArray.cpp">
+      <Filter>소스 파일\2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson3\FrogJmp.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson3\TapeEquilibrium.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
