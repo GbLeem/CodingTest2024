@@ -25,6 +25,12 @@
     <Filter Include="소스 파일\4">
       <UniqueIdentifier>{5140dd5e-9e08-43dd-87df-24b2fc409433}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\5">
+      <UniqueIdentifier>{7e496ef0-62ce-46d4-8f7c-a774bbad800a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\6">
+      <UniqueIdentifier>{99c82861-3487-42fd-89e5-047685e1e37e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lesson1\BinaryGap.cpp">
@@ -38,6 +44,21 @@
     </ClCompile>
     <ClCompile Include="Lesson3\TapeEquilibrium.cpp">
       <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson4\PermCheck.cpp">
+      <Filter>소스 파일\4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson4\MaxCounters.cpp">
+      <Filter>소스 파일\4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson4\MissingInteger.cpp">
+      <Filter>소스 파일\4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson5\PassingCars.cpp">
+      <Filter>소스 파일\5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson6\Distinct.cpp">
+      <Filter>소스 파일\6</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
