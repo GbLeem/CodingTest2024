@@ -63,5 +63,8 @@
     <ClCompile Include="Lesson6\MaxProductOfThree.cpp">
       <Filter>소스 파일\6</Filter>
     </ClCompile>
+    <ClCompile Include="Lesson6\Triangle.cpp">
+      <Filter>소스 파일\6</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
