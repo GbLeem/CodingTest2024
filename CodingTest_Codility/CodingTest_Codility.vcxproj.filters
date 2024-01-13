@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\6">
       <UniqueIdentifier>{99c82861-3487-42fd-89e5-047685e1e37e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\7">
+      <UniqueIdentifier>{0f1a43e7-1c56-4d2f-b7bf-c02941a93257}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lesson1\BinaryGap.cpp">
@@ -65,6 +68,9 @@
     </ClCompile>
     <ClCompile Include="Lesson6\Triangle.cpp">
       <Filter>소스 파일\6</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson7\Brackets.cpp">
+      <Filter>소스 파일\7</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
