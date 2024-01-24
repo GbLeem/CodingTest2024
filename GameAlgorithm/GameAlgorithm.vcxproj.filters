@@ -39,5 +39,8 @@
     <ClCompile Include="BFS_DFS\baek2178.cpp">
       <Filter>소스 파일\bfsdfs</Filter>
     </ClCompile>
+    <ClCompile Include="BFS_DFS\baek7576.cpp">
+      <Filter>소스 파일\bfsdfs</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
