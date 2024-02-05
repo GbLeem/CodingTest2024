@@ -1,20 +1,20 @@
-//Åä¸¶Åä - ½ÃÀÛÁ¡ÀÌ ¿©·¯°³ÀÏ ¶§
+//ì‹œì‘ì ì´ ì—¬ëŸ¬ê°œì¸ BFS
+
+//ì´ì¤‘ forë¬¸ìœ¼ë¡œ BFSëŒë¦¬ë©´ ë³µì¡ë„ì¦ê°€ -> ëª¨ë“  ì‹œì‘ì ì„ ì²˜ìŒì— ë‹¤ íì— ë„£ì–´ë²„ë¦¬ê³  BFS ëŒë¦¬ê¸°
 
 #include <iostream>
-#include <vector>
 #include <queue>
+#include <vector>
 using namespace std;
 
+int N, M; //ì„¸ë¡œ ê°€ë¡œ
 int board[1002][1002];
 int dist[1002][1002];
+
 int dx[4] = { 1,0,-1,0 };
 int dy[4] = { 0,1,0,-1 };
-int N, M;
-int date = 0;
 
-//1 ÀÍÀº
-//0 ¾ÈÀÍÀº
-//-1 ºó
+// i = 1, 0, -1 
 
 int main()
 {
@@ -23,24 +23,23 @@ int main()
 
 	cin >> M >> N;
 	queue<pair<int, int>> Q;
-
+	
 	for (int i = 0; i < N; ++i)
 	{
 		for (int j = 0; j < M; ++j)
 		{
 			cin >> board[i][j];
 
-			if (board[i][j] == 1) //ÀÍÀº Åä¸¶Åä - ½ÃÀÛÁ¡À¸·Î °¡´É			
-				Q.push({ i, j });
-			
-			if (board[i][j] == 0) //¾ÈÀÍÀº Åä¸¶Åä 
-				dist[i][j] = -1;			
+			if (board[i][j] == 1)
+				Q.push({ i,j }); //ìµì—ˆìœ¼ë©´
+			if (board[i][j] == 0)
+				dist[i][j] = -1; //ì•ˆìµì—ˆìœ¼ë©´
 		}
-	}
+	}	
 	
 	while (!Q.empty())
 	{
-		pair<int, int> cur = Q.front();
+		auto cur = Q.front();
 		Q.pop();
 
 		for (int dir = 0; dir < 4; ++dir)
@@ -50,19 +49,20 @@ int main()
 
 			if (nx < 0 || nx >= N || ny < 0 || ny >= M)
 				continue;
-			if (board[nx][ny] == -1 || dist[nx][ny] >= 0)
+			if (dist[nx][ny] >= 0)
 				continue;
 
 			dist[nx][ny] = dist[cur.first][cur.second] + 1;
-			Q.push({ nx, ny });
+			Q.push({ nx,ny });
 		}
 	}
+		
 	int ans = 0;
 	for (int i = 0; i < N; ++i)
 	{
 		for (int j = 0; j < M; ++j)
 		{
-			if (dist[i][j] == -1)
+			if (dist[i][j] == -1) //ì•ˆìµìŒ
 			{
 				cout << -1;
 				return 0;
