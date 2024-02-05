@@ -135,6 +135,7 @@
     <ClCompile Include="BFS_DFS\baek2178.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="BFS_DFS\baek4179.cpp" />
     <ClCompile Include="BFS_DFS\baek7576.cpp" />
     <ClCompile Include="BFS_DFS\BFS.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
