@@ -37,9 +37,9 @@ int main()
 			int nx = cur.first + dx[dir];
 			int ny = cur.second + dy[dir];
 
-			if (nx < 0 || nx >= n || ny < 0 || ny >= m) //?��?�??�감
+			if (nx < 0 || nx >= n || ny < 0 || ny >= m) 
 				continue;
-			if (vis[nx][ny] || board[nx][ny] != 1) //방문 ?�거??벽인 경우
+			if (vis[nx][ny] || board[nx][ny] != 1) 
 				continue;
 			vis[nx][ny] = 1;
 			Q.push({ nx, ny });
