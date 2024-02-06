@@ -60,5 +60,11 @@
     <ClCompile Include="other\baek1157.cpp">
       <Filter>소스 파일\other</Filter>
     </ClCompile>
+    <ClCompile Include="BFS_DFS\baek7562.cpp">
+      <Filter>소스 파일\bfsdfs</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_DFS\baek10026.cpp">
+      <Filter>소스 파일\bfsdfs</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
