@@ -1,3 +1,5 @@
+//시작점이 두 종류일 때
+
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -45,6 +47,7 @@ int main()
 		}
 	}
 
+	//불은 지훈이에 대해 영향 안받아서 먼저 돌려버려도 ok
 	while (!Q_fire.empty())
 	{
 		auto cur = Q_fire.front();
@@ -62,6 +65,8 @@ int main()
 			Q_fire.push({ nx, ny });
 		}
 	}
+
+	//지훈이는 불에 영향 받음
 	while (!Q.empty())
 	{
 		auto cur = Q.front();
@@ -86,3 +91,5 @@ int main()
 	}
 	cout << "IMPOSSIBLE";
 }
+
+//만약 두 종류의 시작점이 있을때 한쪽이 다른쪽에 영향을 미친다면,,,
