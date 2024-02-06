@@ -1,4 +1,4 @@
-//시작점이 두 종류일 때
+//?�작?�이 ??종류????
 
 #include <iostream>
 #include <vector>
@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int R, C; //세로(행) 가로(열)
+int R, C; //?�로(?? 가�???
 string board[1002];
 int dist[1002][1002];
 int dist_fire[1002][1002];
@@ -47,7 +47,7 @@ int main()
 		}
 	}
 
-	//불은 지훈이에 대해 영향 안받아서 먼저 돌려버려도 ok
+	//불�? 지?�이???�???�향 ?�받?�서 먼�? ?�려버려??ok
 	while (!Q_fire.empty())
 	{
 		auto cur = Q_fire.front();
@@ -66,7 +66,7 @@ int main()
 		}
 	}
 
-	//지훈이는 불에 영향 받음
+	//지?�이??불에 ?�향 받음
 	while (!Q.empty())
 	{
 		auto cur = Q.front();
@@ -76,7 +76,7 @@ int main()
 			int nx = cur.first + dx[dir];
 			int ny = cur.second + dy[dir];
 
-			if (nx < 0 || nx >= R || ny < 0 || ny >= C) //성공
+			if (nx < 0 || nx >= R || ny < 0 || ny >= C) //?�공
 			{
 				cout << dist[cur.first][cur.second] + 1;
 				return 0;
@@ -92,4 +92,4 @@ int main()
 	cout << "IMPOSSIBLE";
 }
 
-//만약 두 종류의 시작점이 있을때 한쪽이 다른쪽에 영향을 미친다면,,,
+//만약 ??종류???�작?�이 ?�을???�쪽???�른쪽에 ?�향??미친?�면,,,
