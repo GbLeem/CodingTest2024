@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\other">
       <UniqueIdentifier>{5e7aa242-9e16-4d94-a380-7b9bd54e5ac7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\queue">
+      <UniqueIdentifier>{b419be71-4154-4e52-be63-20f26c4191e9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_star\Astar.cpp">
@@ -68,6 +71,9 @@
     </ClCompile>
     <ClCompile Include="BFS_DFS\baek5427.cpp">
       <Filter>소스 파일\bfsdfs</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue\baek18258.cpp">
+      <Filter>소스 파일\queue</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
