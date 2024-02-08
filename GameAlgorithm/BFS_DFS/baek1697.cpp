@@ -5,7 +5,7 @@
 using namespace std;
 
 int arr[100002];
-int N, K; //수빈, 동생
+int N, K; //
 
 int main()
 {
