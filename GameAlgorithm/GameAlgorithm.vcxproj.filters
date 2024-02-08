@@ -75,5 +75,11 @@
     <ClCompile Include="Queue\baek18258.cpp">
       <Filter>소스 파일\queue</Filter>
     </ClCompile>
+    <ClCompile Include="BFS_DFS\baek7569.cpp">
+      <Filter>소스 파일\bfsdfs</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_DFS\programmers_bfs_network.cpp">
+      <Filter>소스 파일\bfsdfs</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

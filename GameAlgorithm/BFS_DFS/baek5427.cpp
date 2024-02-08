@@ -21,7 +21,7 @@ int main()
 
 	while (T--)
 	{
-		cin >> w >> h; // 가 세
+		cin >> w >> h; // 가 ??
 		
 		for (int i = 0; i < h; ++i)
 		{
