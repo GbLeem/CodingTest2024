@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\queue">
       <UniqueIdentifier>{b419be71-4154-4e52-be63-20f26c4191e9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\string">
+      <UniqueIdentifier>{3fc3319b-6fbd-4c23-b08a-c35a44af8953}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_star\Astar.cpp">
@@ -95,6 +98,9 @@
     </ClCompile>
     <ClCompile Include="other\programmers_downstream_string.cpp">
       <Filter>소스 파일\other</Filter>
+    </ClCompile>
+    <ClCompile Include="string\programmers_basic_string.cpp">
+      <Filter>소스 파일\string</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
