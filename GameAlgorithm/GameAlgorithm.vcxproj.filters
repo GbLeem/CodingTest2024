@@ -87,5 +87,14 @@
     <ClCompile Include="other\programmers_integer_sort.cpp">
       <Filter>소스 파일\other</Filter>
     </ClCompile>
+    <ClCompile Include="other\programmers_Kim.cpp">
+      <Filter>소스 파일\other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\programmers_hidePhone.cpp">
+      <Filter>소스 파일\other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\programmers_downstream_string.cpp">
+      <Filter>소스 파일\other</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
