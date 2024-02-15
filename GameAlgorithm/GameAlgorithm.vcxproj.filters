@@ -108,5 +108,11 @@
     <ClCompile Include="string\programmers_JadenCase.cpp">
       <Filter>소스 파일\string</Filter>
     </ClCompile>
+    <ClCompile Include="other\programmers_gcd_.cpp">
+      <Filter>소스 파일\other</Filter>
+    </ClCompile>
+    <ClCompile Include="other\programmers_repeat_binary.cpp">
+      <Filter>소스 파일\other</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
