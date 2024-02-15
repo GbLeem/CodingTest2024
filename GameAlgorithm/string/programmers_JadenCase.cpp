@@ -15,10 +15,11 @@ string solution(string s)
     {        
         if (isdigit(answer[0]) == 0 && first) //맨 앞 처리
         {
-            int temp = (int)answer[0];
-            temp -= 32;
-            char str = temp;
-            answer[0] = str;
+            //int temp = (int)answer[0];
+            //temp -= 32;
+            //char str = temp;
+            //answer[0] = str;
+            answer[0] = (int)answer[0] - 32;
             first = false;
         }               
 
@@ -26,10 +27,11 @@ string solution(string s)
         {
             if (answer[i + 1] != ' ' && isdigit(answer[i + 1]) == 0)
             {
-                int temp = (int)answer[i + 1];
-                temp -= 32;
-                char str = temp;
-                answer[i + 1] = str;
+                //int temp = (int)answer[i + 1];
+                //temp -= 32;
+                //char str = temp;
+                //answer[i + 1] = str;
+                answer[i + 1] = (int)answer[i + 1] - 32;
             }
         }        
     }    
