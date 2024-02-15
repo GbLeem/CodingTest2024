@@ -105,5 +105,8 @@
     <ClCompile Include="other\programmers_matrix_sum.cpp">
       <Filter>소스 파일\other</Filter>
     </ClCompile>
+    <ClCompile Include="string\programmers_JadenCase.cpp">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
