@@ -114,5 +114,8 @@
     <ClCompile Include="other\programmers_repeat_binary.cpp">
       <Filter>소스 파일\other</Filter>
     </ClCompile>
+    <ClCompile Include="other\programmers_represent_num.cpp">
+      <Filter>소스 파일\other</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
