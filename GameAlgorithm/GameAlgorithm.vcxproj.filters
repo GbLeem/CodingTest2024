@@ -117,5 +117,8 @@
     <ClCompile Include="other\programmers_represent_num.cpp">
       <Filter>소스 파일\other</Filter>
     </ClCompile>
+    <ClCompile Include="string\programmers_pair_removal.cpp">
+      <Filter>소스 파일\string</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
