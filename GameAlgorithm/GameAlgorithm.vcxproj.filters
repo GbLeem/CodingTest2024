@@ -28,6 +28,12 @@
     <Filter Include="소스 파일\string">
       <UniqueIdentifier>{3fc3319b-6fbd-4c23-b08a-c35a44af8953}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\greedy">
+      <UniqueIdentifier>{8bd3c162-0bc2-4ee7-84ee-ec9e9c1e05ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\recursion">
+      <UniqueIdentifier>{f36dc667-2a02-42b2-b3df-8fb1600a10b1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_star\Astar.cpp">
@@ -122,6 +128,9 @@
     </ClCompile>
     <ClCompile Include="other\programmers_english_Shiritori.cpp">
       <Filter>소스 파일\other</Filter>
+    </ClCompile>
+    <ClCompile Include="recursion\recursion.cpp">
+      <Filter>소스 파일\recursion</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
