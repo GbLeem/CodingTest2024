@@ -14,6 +14,7 @@ long long func1(long long a, long long b, long long m)
 	if (b % 2 == 0) //짝수이면
 		return val;
 
+	//홀수이면
 	return val * a % m;
 }
 
