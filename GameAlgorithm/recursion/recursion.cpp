@@ -51,6 +51,7 @@ int func1(int a, int b, int m)
 	return val & m;
 }
 
+//m이 2^32 넘어서면 문제 발생
 long long func1_1(long long a, long long b, long long m)
 {
 	long long val = 1;
