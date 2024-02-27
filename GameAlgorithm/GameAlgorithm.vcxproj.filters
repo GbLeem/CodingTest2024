@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\recursion">
       <UniqueIdentifier>{f36dc667-2a02-42b2-b3df-8fb1600a10b1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\basic">
+      <UniqueIdentifier>{c929e51e-6bb6-4872-b404-44d6195c223d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_star\Astar.cpp">
@@ -146,6 +149,15 @@
     </ClCompile>
     <ClCompile Include="recursion\baek1780.cpp">
       <Filter>소스 파일\recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\baek2576.cpp">
+      <Filter>소스 파일\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\baek2587.cpp">
+      <Filter>소스 파일\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\baek2309.cpp">
+      <Filter>소스 파일\basic</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
