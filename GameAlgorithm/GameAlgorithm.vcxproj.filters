@@ -159,5 +159,11 @@
     <ClCompile Include="Basic\baek2309.cpp">
       <Filter>소스 파일\basic</Filter>
     </ClCompile>
+    <ClCompile Include="Basic\baek10093.cpp">
+      <Filter>소스 파일\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\baek1267.cpp">
+      <Filter>소스 파일\basic</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
