@@ -32,6 +32,6 @@ int main()
 	int N;
 	cin >> N;
 
-	cout << 2 * N + 1 << endl;
+	cout << (1 << N) - 1 << endl;
 	func(1, 3, N);
 }
