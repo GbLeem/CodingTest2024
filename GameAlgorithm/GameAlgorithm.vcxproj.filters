@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\basic">
       <UniqueIdentifier>{c929e51e-6bb6-4872-b404-44d6195c223d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\arr">
+      <UniqueIdentifier>{94d4201f-1c17-4aaa-9192-dd40d022b570}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_star\Astar.cpp">
@@ -189,8 +192,29 @@
     <ClCompile Include="Basic\baek2446.cpp">
       <Filter>소스 파일\basic</Filter>
     </ClCompile>
-    <ClCompile Include="Basic\baek2562.cpp">
-      <Filter>소스 파일\basic</Filter>
+    <ClCompile Include="Array\baek10808.cpp">
+      <Filter>소스 파일\arr</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\baek1475.cpp">
+      <Filter>소스 파일\arr</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\baek2577.cpp">
+      <Filter>소스 파일\arr</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\baek3273.cpp">
+      <Filter>소스 파일\arr</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\baek10807.cpp">
+      <Filter>소스 파일\arr</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\baek11328.cpp">
+      <Filter>소스 파일\arr</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\baek13300.cpp">
+      <Filter>소스 파일\arr</Filter>
+    </ClCompile>
+    <ClCompile Include="Array\baek1919.cpp">
+      <Filter>소스 파일\arr</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
