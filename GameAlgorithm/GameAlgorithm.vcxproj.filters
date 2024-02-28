@@ -165,5 +165,14 @@
     <ClCompile Include="Basic\baek1267.cpp">
       <Filter>소스 파일\basic</Filter>
     </ClCompile>
+    <ClCompile Include="Basic\baek10804.cpp">
+      <Filter>소스 파일\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\baek2440.cpp">
+      <Filter>소스 파일\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\baek2441.cpp">
+      <Filter>소스 파일\basic</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
