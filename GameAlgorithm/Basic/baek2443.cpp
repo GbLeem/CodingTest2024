@@ -9,16 +9,12 @@ int main()
 	int N;
 	cin >> N;
 
-	for (int i = N; i > 0; --i)
+	for (int i = N; i > 0 ; --i)
 	{
-		for (int j = 0; j < N-i; ++j)
-		{
+		for (int j = 0; j < N - i ; ++j)
 			cout << " ";
-		}
-		for (int j = i; j > 0; --j)
-		{
+		for (int j = 0; j < 2 * i - 1; ++j)
 			cout << "*";
-		}
 		cout << "\n";
 	}
 }
