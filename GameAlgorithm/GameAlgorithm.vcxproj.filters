@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\arr">
       <UniqueIdentifier>{94d4201f-1c17-4aaa-9192-dd40d022b570}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\ll">
+      <UniqueIdentifier>{ae2ddd77-0a9e-4658-93ac-b164e8979f64}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_star\Astar.cpp">
@@ -215,6 +218,15 @@
     </ClCompile>
     <ClCompile Include="Array\baek1919.cpp">
       <Filter>소스 파일\arr</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList\baek1158.cpp">
+      <Filter>소스 파일\ll</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList\baek1406.cpp">
+      <Filter>소스 파일\ll</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList\baek5397.cpp">
+      <Filter>소스 파일\ll</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
