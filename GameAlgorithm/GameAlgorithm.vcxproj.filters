@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\stack">
       <UniqueIdentifier>{f7eda18a-c7a4-4df8-a306-2e83dc882774}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\deque">
+      <UniqueIdentifier>{b4cdce7b-be5a-4798-b730-7114e52c6f28}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_star\Astar.cpp">
@@ -248,6 +251,15 @@
     </ClCompile>
     <ClCompile Include="Basic\baek15552.cpp">
       <Filter>소스 파일\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Deque\baek1021.cpp">
+      <Filter>소스 파일\deque</Filter>
+    </ClCompile>
+    <ClCompile Include="Deque\baek5430.cpp">
+      <Filter>소스 파일\deque</Filter>
+    </ClCompile>
+    <ClCompile Include="Deque\baek10866.cpp">
+      <Filter>소스 파일\deque</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
