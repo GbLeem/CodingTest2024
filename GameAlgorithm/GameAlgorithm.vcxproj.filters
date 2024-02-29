@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\ll">
       <UniqueIdentifier>{ae2ddd77-0a9e-4658-93ac-b164e8979f64}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\stack">
+      <UniqueIdentifier>{f7eda18a-c7a4-4df8-a306-2e83dc882774}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_star\Astar.cpp">
@@ -227,6 +230,24 @@
     </ClCompile>
     <ClCompile Include="LinkedList\baek5397.cpp">
       <Filter>소스 파일\ll</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack\baek1874.cpp">
+      <Filter>소스 파일\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack\baek2493.cpp">
+      <Filter>소스 파일\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack\baek6198.cpp">
+      <Filter>소스 파일\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack\baek10773.cpp">
+      <Filter>소스 파일\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack\baek10828.cpp">
+      <Filter>소스 파일\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic\baek15552.cpp">
+      <Filter>소스 파일\basic</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
