@@ -17,30 +17,36 @@ int main()
 		dq.push_back(i + 1);
 	}
 	
-
 	while (M--)
 	{
 		int num;
 		cin >> num; //1 2 3
-		deque<int>::iterator it = dq.begin();
-
-		while (*it != num)
+		int frontVal = dq.front();
+		
+		while (frontVal != num)
 		{
-			if (num > dq.size() / 2) //왼쪽
+			int index = 0;
+			for (int i = 0; i < dq.size(); ++i)
 			{
-				it--;
-				if (it == dq.begin())
-					it = dq.end();
+				if (num == dq[i])
+					index = i;
+			}
+			if (index <= dq.size()/2) //왼쪽
+			{				
+				int temp = dq.front();
+				dq.pop_front();
+				dq.push_back(temp);			
 			}
 			else //오른쪽
 			{
-				it++;
-				if (it == dq.end())
-					it = dq.begin();
+				int temp = dq.back();
+				dq.push_front(temp);
+				dq.pop_back();
 			}
+			frontVal = dq.front();			
 			answer++;
 		}
-		dq.erase(it);
+		dq.pop_front();
 	}
 	cout << answer;
 }
