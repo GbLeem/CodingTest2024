@@ -15,7 +15,7 @@ int main()
 	ios::sync_with_stdio(0);
 	cin.tie(0);
 
-	cin >> n >> m; //?�로 가�?
+	cin >> n >> m; //세로 가로
 	int x, y;
 
 	for (int i = 0; i < n; ++i)

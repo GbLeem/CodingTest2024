@@ -52,6 +52,12 @@
     <Filter Include="소스 파일\stack2">
       <UniqueIdentifier>{83ac5855-e770-4e76-965d-ed3d442922e0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\class3">
+      <UniqueIdentifier>{c455f4c6-d2cf-416a-9b9f-a1b2a09b26da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\bfs">
+      <UniqueIdentifier>{c0c49755-308d-492c-9ff7-f6486dff5fa9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_star\Astar.cpp">
@@ -281,6 +287,24 @@
     </ClCompile>
     <ClCompile Include="Stack2\baek10799.cpp">
       <Filter>소스 파일\stack2</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\baek1003.cpp">
+      <Filter>소스 파일\class3</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\baek1107.cpp">
+      <Filter>소스 파일\class3</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\baek1463.cpp">
+      <Filter>소스 파일\class3</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS\baek2583.cpp">
+      <Filter>소스 파일\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS\baek2667.cpp">
+      <Filter>소스 파일\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\baek1620.cpp">
+      <Filter>소스 파일\class3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
