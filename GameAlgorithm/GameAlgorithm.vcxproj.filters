@@ -306,5 +306,14 @@
     <ClCompile Include="bojClass3\baek1620.cpp">
       <Filter>소스 파일\class3</Filter>
     </ClCompile>
+    <ClCompile Include="BFS\baek2468.cpp">
+      <Filter>소스 파일\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS\baek5014.cpp">
+      <Filter>소스 파일\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS\baek1697_2.cpp">
+      <Filter>소스 파일\bfs</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
