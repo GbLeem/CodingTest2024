@@ -58,6 +58,9 @@
     <Filter Include="소스 파일\bfs">
       <UniqueIdentifier>{c0c49755-308d-492c-9ff7-f6486dff5fa9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\programmers">
+      <UniqueIdentifier>{76a174ce-55d5-4990-8486-81943c2fa11b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_star\Astar.cpp">
@@ -323,6 +326,9 @@
     </ClCompile>
     <ClCompile Include="BFS\baek13549.cpp">
       <Filter>소스 파일\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\programmers_Functional development.cpp">
+      <Filter>소스 파일\programmers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
