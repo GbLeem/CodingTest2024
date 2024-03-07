@@ -330,5 +330,17 @@
     <ClCompile Include="Programmers\programmers_Functional development.cpp">
       <Filter>소스 파일\programmers</Filter>
     </ClCompile>
+    <ClCompile Include="bojClass3\baek1764.cpp">
+      <Filter>소스 파일\class3</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\baek1931.cpp">
+      <Filter>소스 파일\class3</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\baek18870.cpp">
+      <Filter>소스 파일\class3</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\baek11047.cpp">
+      <Filter>소스 파일\class3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
