@@ -318,5 +318,11 @@
     <ClCompile Include="BFS\baek7569.cpp">
       <Filter>소스 파일\bfs</Filter>
     </ClCompile>
+    <ClCompile Include="BFS\baek2146.cpp">
+      <Filter>소스 파일\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS\baek13549.cpp">
+      <Filter>소스 파일\bfs</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
