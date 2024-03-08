@@ -345,5 +345,8 @@
     <ClCompile Include="bojClass3\baek1927.cpp">
       <Filter>소스 파일\class3</Filter>
     </ClCompile>
+    <ClCompile Include="bojClass3\baek14940.cpp">
+      <Filter>소스 파일\class3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
