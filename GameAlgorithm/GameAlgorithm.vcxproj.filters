@@ -61,6 +61,9 @@
     <Filter Include="소스 파일\programmers">
       <UniqueIdentifier>{76a174ce-55d5-4990-8486-81943c2fa11b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\backtracking">
+      <UniqueIdentifier>{ab80d203-9c26-4289-a47c-6dfc482ee966}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_star\Astar.cpp">
@@ -350,6 +353,18 @@
     </ClCompile>
     <ClCompile Include="bojClass3\baek1541.cpp">
       <Filter>소스 파일\class3</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTracking\BackTracking.cpp">
+      <Filter>소스 파일\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTracking\baek15649.cpp">
+      <Filter>소스 파일\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTracking\baek9663.cpp">
+      <Filter>소스 파일\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTracking\baek1182.cpp">
+      <Filter>소스 파일\backtracking</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
