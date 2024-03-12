@@ -372,5 +372,26 @@
     <ClCompile Include="BackTracking\baek15651.cpp">
       <Filter>소스 파일\backtracking</Filter>
     </ClCompile>
+    <ClCompile Include="BackTracking\baek15652.cpp">
+      <Filter>소스 파일\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTracking\baek15654.cpp">
+      <Filter>소스 파일\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTracking\baek15655.cpp">
+      <Filter>소스 파일\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTracking\baek15656.cpp">
+      <Filter>소스 파일\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTracking\baek15657.cpp">
+      <Filter>소스 파일\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTracking\baek15663.cpp">
+      <Filter>소스 파일\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTracking\baek15664.cpp">
+      <Filter>소스 파일\backtracking</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
