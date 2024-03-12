@@ -1,28 +1,33 @@
 #include <iostream>
+#include <algorithm>
 using namespace std;
 
-int arr[10];
-bool isused[10]; //특정 수가 쓰였는지 안쓰였는지 
 int n, m;
+int arr[10];
+bool isused[10];
 
-void func(int k)
+void func(int cur)
 {
-	if (k == m)
+	if (cur == m)
 	{
 		for (int i = 0; i < m; ++i)
 			cout << arr[i] << " ";
 		cout << "\n";
 		return;
 	}
-
-	for (int i = 1; i <= n; ++i)
+	int index = 1;
+	if (cur != 0)
+	{
+		index = arr[cur - 1] + 1;
+	}
+	for (int i = index; i <= n; ++i)
 	{
 		if (!isused[i])
 		{
-			arr[k] = i;
+			arr[cur] = i;
 			isused[i] = 1;
-			func(k + 1);
-			isused[i] = 0;
+			func(cur + 1);
+			isused[i] = 0;				
 		}
 	}
 }
@@ -31,7 +36,9 @@ int main()
 {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
-
+	
 	cin >> n >> m;
+
 	func(0);
+
 }

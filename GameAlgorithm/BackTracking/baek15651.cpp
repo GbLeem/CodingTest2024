@@ -1,9 +1,11 @@
 #include <iostream>
+#include <vector>
+#include <algorithm>
 using namespace std;
 
-int arr[10];
-bool isused[10]; //특정 수가 쓰였는지 안쓰였는지 
 int n, m;
+int arr[100];
+int isused[100];
 
 void func(int k)
 {
@@ -20,9 +22,7 @@ void func(int k)
 		if (!isused[i])
 		{
 			arr[k] = i;
-			isused[i] = 1;
 			func(k + 1);
-			isused[i] = 0;
 		}
 	}
 }
@@ -33,5 +33,6 @@ int main()
 	cin.tie(0);
 
 	cin >> n >> m;
-	func(0);
+
+	func(0);	
 }
