@@ -393,5 +393,14 @@
     <ClCompile Include="BackTracking\baek15664.cpp">
       <Filter>소스 파일\backtracking</Filter>
     </ClCompile>
+    <ClCompile Include="BackTracking\baek15665.cpp">
+      <Filter>소스 파일\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTracking\baek15666.cpp">
+      <Filter>소스 파일\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTracking\baek6603.cpp">
+      <Filter>소스 파일\backtracking</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
