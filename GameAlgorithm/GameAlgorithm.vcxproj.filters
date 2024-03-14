@@ -67,6 +67,9 @@
     <Filter Include="소스 파일\simulation">
       <UniqueIdentifier>{3557c2c4-7980-46ed-bd1c-40a438e8dd7d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\sort1">
+      <UniqueIdentifier>{31d9df33-6154-4728-98d3-7bccd75c3f60}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_star\Astar.cpp">
@@ -422,6 +425,18 @@
     </ClCompile>
     <ClCompile Include="Simulation\baek18808.cpp">
       <Filter>소스 파일\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort1\MergeSort.cpp">
+      <Filter>소스 파일\sort1</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort1\QuickSort.cpp">
+      <Filter>소스 파일\sort1</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort1\sort.cpp">
+      <Filter>소스 파일\sort1</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort1\baek11728.cpp">
+      <Filter>소스 파일\sort1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
