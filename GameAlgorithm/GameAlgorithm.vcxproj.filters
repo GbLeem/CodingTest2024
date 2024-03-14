@@ -64,6 +64,9 @@
     <Filter Include="소스 파일\backtracking">
       <UniqueIdentifier>{ab80d203-9c26-4289-a47c-6dfc482ee966}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\simulation">
+      <UniqueIdentifier>{3557c2c4-7980-46ed-bd1c-40a438e8dd7d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_star\Astar.cpp">
@@ -404,6 +407,21 @@
     </ClCompile>
     <ClCompile Include="BackTracking\baek1759.cpp">
       <Filter>소스 파일\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTracking\baek1941.cpp">
+      <Filter>소스 파일\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTracking\boj9664.cpp">
+      <Filter>소스 파일\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="BackTracking\baek16987.cpp">
+      <Filter>소스 파일\backtracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation\baek15683.cpp">
+      <Filter>소스 파일\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation\baek18808.cpp">
+      <Filter>소스 파일\simulation</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
