@@ -453,5 +453,17 @@
     <ClCompile Include="Sort2\baek11652.cpp">
       <Filter>소스 파일\sort2</Filter>
     </ClCompile>
+    <ClCompile Include="Sort2\baek2910.cpp">
+      <Filter>소스 파일\sort2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort2\baek5648.cpp">
+      <Filter>소스 파일\sort2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort2\baek11656.cpp">
+      <Filter>소스 파일\sort2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort2\baek10825.cpp">
+      <Filter>소스 파일\sort2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
