@@ -10,13 +10,13 @@ int main()
 	cin.tie(0);
 
 	cin >> n;
-	
+
 	d[1] = 1;
-	d[2] = 2;
-	
+	d[2] = 3;
+
 	for (int i = 3; i <= n; ++i)
 	{
-		d[i] = (d[i - 1] + d[i - 2]) % 10'007; //-> 중간에 계속 나눠야 int overflow 방지할 수 있다.
+		d[i] = (d[i - 1] + d[i - 2] + d[i - 2]) % 10'007;
 	}
 	cout << d[n];
 }
