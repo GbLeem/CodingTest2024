@@ -60,5 +60,17 @@
     <ClCompile Include="16DP\baek11727.cpp">
       <Filter>소스 파일\DP</Filter>
     </ClCompile>
+    <ClCompile Include="16DP\baek1912.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="16DP\baek11055.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="16DP\baek9251.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="16DP\baek9465.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
