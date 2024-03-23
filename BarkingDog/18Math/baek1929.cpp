@@ -14,7 +14,7 @@ void sieve(int n)
 	{
 		if (state[i] == false)
 			continue;
-		for (int j = i * i; j <= n; j += i) //배수 거르기
+		for (int j = 2 * i; j <= n; j += i) //배수 거르기
 			state[j] = false;
 	}
 }
