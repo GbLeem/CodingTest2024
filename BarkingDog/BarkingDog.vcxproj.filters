@@ -159,5 +159,8 @@
     <ClCompile Include="18Math\baek9613.cpp">
       <Filter>소스 파일\Math</Filter>
     </ClCompile>
+    <ClCompile Include="16DP\baek12865.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
