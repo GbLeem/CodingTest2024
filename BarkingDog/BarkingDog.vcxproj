@@ -101,12 +101,16 @@
     <ClCompile Include="17Greedy\baek11399.cpp" />
     <ClCompile Include="17Greedy\baek11501.cpp" />
     <ClCompile Include="17Greedy\baek1541.cpp" />
-    <ClCompile Include="17Greedy\baek1744.cpp" />
+    <ClCompile Include="17Greedy\baek1744.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="17Greedy\baek1931.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="17Greedy\baek2170.cpp" />
+    <ClCompile Include="17Greedy\baek2170.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="17Greedy\baek2217.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
