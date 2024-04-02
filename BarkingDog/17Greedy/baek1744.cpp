@@ -3,8 +3,6 @@
 using namespace std;
 
 int arr[52];
-int m[52];
-int p[52];
 
 int main()
 {
@@ -13,57 +11,52 @@ int main()
 
 	int n;
 	cin >> n;
+	int minus = 0;
+	int zero = 0;
 
 	for (int i = 0; i < n; ++i)
+	{
 		cin >> arr[i];
+		if (arr[i] < 0)
+			minus++;
+		if (arr[i] == 0)
+			zero++;
+	}
 
 	sort(arr, arr + n);
 
-	//-1 1 2 3 4
-
-	//0 1 2 3 4 5 
-
-	//-1
 	int ans = 0;
-	int cnt1 = 0;
-	int cnt2 = 0;
-	int i1 = 0;
-	int i2 = 0;
-	for (int i = 0; i < n; ++i)
+
+	//음수 처리
+	int temp = 0;
+	for (int i = 0; i < minus; i += 2)
 	{
-		if (arr[i] < 0)
+		if (i == minus - 1)
 		{
-			cnt1++;
-			m[i1] = arr[i];
-			i1++;
+			temp = arr[i];
+			break;
 		}
 		else
-		{
-			cnt2++;
-			m[i2] = arr[i];
-			i2++;
-		}
+			ans += arr[i] * arr[i + 1];
 	}
+	if (zero == 0)
+		ans += temp;
 	
-	if (i1 % 2 == 0)//吏앹닔
+	//양수
+	int temp2 = 0;
+	for (int i = n - 1; i >= minus; i -= 2)
 	{
-		for (int i = 0; i < i1; i+=2)
+		if (i == minus)
 		{
-			ans += m[i] * m[i + 1];
+			temp2 = arr[i];
+			break;
 		}
+		if (arr[i] * arr[i - 1] > arr[i] + arr[i - 1])
+			ans += arr[i] * arr[i - 1];
+		else
+			ans += (arr[i] + arr[i - 1]);
 	}
-	else
-	{
-		for (int i = 0; i < i1 - 1; i += 2)
-			ans += m[i] * m[i + 1];
-		ans += m[i1 - 1];
-	}
+	ans += temp2;
 
-	while (i1 > 1)
-	{
-		ans += p[i1] * p[i1 - 1];
-		i1--;
-	}
-	if(i1==1)
-
+	cout << ans;
 }
