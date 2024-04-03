@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\Math">
       <UniqueIdentifier>{f34964f9-7eb6-425b-9443-6a95b900efb2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\BinarySearch">
+      <UniqueIdentifier>{45c7961e-07e3-4f80-94a5-dc9e41964587}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="16DP\dp.cpp">
@@ -161,6 +164,36 @@
     </ClCompile>
     <ClCompile Include="16DP\baek12865.cpp">
       <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="19BinarySearch\baek1654.cpp">
+      <Filter>소스 파일\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="19BinarySearch\baek1822.cpp">
+      <Filter>소스 파일\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="19BinarySearch\baek1920.cpp">
+      <Filter>소스 파일\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="19BinarySearch\baek2295.cpp">
+      <Filter>소스 파일\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="19BinarySearch\baek2805.cpp">
+      <Filter>소스 파일\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="19BinarySearch\baek10815.cpp">
+      <Filter>소스 파일\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="19BinarySearch\baek10816.cpp">
+      <Filter>소스 파일\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="19BinarySearch\baek16401.cpp">
+      <Filter>소스 파일\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="19BinarySearch\baek18870.cpp">
+      <Filter>소스 파일\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="19BinarySearch\binarySearach.cpp">
+      <Filter>소스 파일\BinarySearch</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
