@@ -185,7 +185,10 @@
     <ClCompile Include="19BinarySearch\baek16401.cpp" />
     <ClCompile Include="19BinarySearch\baek1654.cpp" />
     <ClCompile Include="19BinarySearch\baek1822.cpp" />
-    <ClCompile Include="19BinarySearch\baek18870.cpp" />
+    <ClCompile Include="19BinarySearch\baek18870.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="19BinarySearch\baek1920.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
