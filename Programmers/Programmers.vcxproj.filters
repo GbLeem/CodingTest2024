@@ -13,5 +13,13 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\stackqueue">
+      <UniqueIdentifier>{8465c569-8e4f-4c16-b3c2-926bf9c9d84c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StackQueue\jusik.cpp">
+      <Filter>소스 파일\stackqueue</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
