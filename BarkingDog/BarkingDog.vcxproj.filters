@@ -195,5 +195,14 @@
     <ClCompile Include="19BinarySearch\binarySearach.cpp">
       <Filter>소스 파일\BinarySearch</Filter>
     </ClCompile>
+    <ClCompile Include="19BinarySearch\baek2467.cpp">
+      <Filter>소스 파일\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="19BinarySearch\baek3151.cpp">
+      <Filter>소스 파일\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="19BinarySearch\baek18869.cpp">
+      <Filter>소스 파일\BinarySearch</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
