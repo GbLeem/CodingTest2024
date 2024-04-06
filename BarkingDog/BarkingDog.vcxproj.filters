@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\BinarySearch">
       <UniqueIdentifier>{45c7961e-07e3-4f80-94a5-dc9e41964587}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\twoPointer">
+      <UniqueIdentifier>{107b4226-ee54-44f8-b1f2-bb3a52782fb7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="16DP\dp.cpp">
@@ -203,6 +206,18 @@
     </ClCompile>
     <ClCompile Include="19BinarySearch\baek18869.cpp">
       <Filter>소스 파일\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="20TwoPointer\baek1806.cpp">
+      <Filter>소스 파일\twoPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="20TwoPointer\baek2230.cpp">
+      <Filter>소스 파일\twoPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="20TwoPointer\baek2230_2.cpp">
+      <Filter>소스 파일\twoPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="20TwoPointer\baek2003.cpp">
+      <Filter>소스 파일\twoPointer</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
