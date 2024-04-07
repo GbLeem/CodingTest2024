@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\twoPointer">
       <UniqueIdentifier>{107b4226-ee54-44f8-b1f2-bb3a52782fb7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\simulation">
+      <UniqueIdentifier>{4ed8c2c8-1f6a-4f77-a52a-019f32f0c10a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="16DP\dp.cpp">
@@ -218,6 +221,15 @@
     </ClCompile>
     <ClCompile Include="20TwoPointer\baek2003.cpp">
       <Filter>소스 파일\twoPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="20TwoPointer\baek1644.cpp">
+      <Filter>소스 파일\twoPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="20TwoPointer\baek13144.cpp">
+      <Filter>소스 파일\twoPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="13Simulation\baek15683.cpp">
+      <Filter>소스 파일\simulation</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
