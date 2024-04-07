@@ -16,15 +16,28 @@ int main()
 
 	int cnt = 0;
 	int en = 0;
-	int sum = 0;
-
+	int sum = a[0];
+	bool ok = false;
 	for (int st = 0; st < n; ++st)
 	{
-		while (st < en)
+		while (en < n && sum < m)
 		{
 			en++;
-
+			if (en == n)
+				break;
 			sum += a[en];
+			if (sum == m)
+			{
+				ok = true;
+				break;
+			}
 		}
+		if (sum == m || ok)
+		{
+			cnt++;
+			ok = false;
+		}
+		sum -= a[st];		
 	}
+	cout << cnt;
 }

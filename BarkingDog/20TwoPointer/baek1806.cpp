@@ -1,4 +1,4 @@
-//st와 en이 함께 움직여야함
+//st?� en???�께 ?�직여?�함
 
 #include <iostream>
 using namespace std;
