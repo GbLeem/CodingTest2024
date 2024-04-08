@@ -72,5 +72,8 @@
     <ClCompile Include="Lesson7\Brackets.cpp">
       <Filter>소스 파일\7</Filter>
     </ClCompile>
+    <ClCompile Include="Lesson6\NumberOfDiscIntersections.cpp">
+      <Filter>소스 파일\6</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
