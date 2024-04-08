@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\simulation">
       <UniqueIdentifier>{4ed8c2c8-1f6a-4f77-a52a-019f32f0c10a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\graph">
+      <UniqueIdentifier>{47681322-f0e9-4ae0-b3e6-d82043fda43b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="16DP\dp.cpp">
@@ -230,6 +233,18 @@
     </ClCompile>
     <ClCompile Include="13Simulation\baek15683.cpp">
       <Filter>소스 파일\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="23Graph\baek1260.cpp">
+      <Filter>소스 파일\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="23Graph\baek2606.cpp">
+      <Filter>소스 파일\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="23Graph\baek11724.cpp">
+      <Filter>소스 파일\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="23Graph\graph.cpp">
+      <Filter>소스 파일\graph</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
