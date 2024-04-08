@@ -1,32 +1,62 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
-int n;
+vector<bool>state(4000002, true);
 
-bool isprime(int n)
+void sieve(int n)
 {
-	if (n == 1)
-		return false;
+	state[1] = false; 
 	for (int i = 2; i * i <= n; ++i)
 	{
-		if (n % i == 0)
-			return false;
+		if (state[i] == false)
+			continue;
+		for (int j = 2 * i; j <= n; j += i)
+			state[j] = false;
 	}
-	return true;
 }
+
 
 int main()
 {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
-
+	int n;
 	cin >> n;
 
-	for (int i = 2; i * i <= n; ++i)
-	{
-		if (isprime(i))
-		{
+	sieve(n);
 
+	int sum = 2;
+	int cnt = 0;
+	int en = 2;
+	bool ok = false;
+	
+	for (int st = 2; st <= n; ++st)
+	{
+		if (state[st])
+		{
+			while (en <= n && sum < n)
+			{
+				en++;
+				if (state[en])
+				{
+					if (en > n)
+						break;
+					sum += en;
+					if (sum == n)
+					{
+						ok = true;
+						break;
+					}
+				}
+			}
+			if (sum == n || ok)
+			{
+				ok = false;
+				cnt++;
+			}
+			sum -= st;
 		}
 	}
+	cout << cnt;
 }

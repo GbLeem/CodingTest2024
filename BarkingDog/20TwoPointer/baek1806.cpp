@@ -1,4 +1,3 @@
-//st?€ en???¨ê»˜ ?€ì§ì—¬?¼í•¨
 
 #include <iostream>
 using namespace std;
