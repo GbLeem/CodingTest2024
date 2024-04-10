@@ -246,5 +246,14 @@
     <ClCompile Include="23Graph\graph.cpp">
       <Filter>소스 파일\graph</Filter>
     </ClCompile>
+    <ClCompile Include="23Graph\baek2660.cpp">
+      <Filter>소스 파일\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="23Graph\baek5567.cpp">
+      <Filter>소스 파일\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="23Graph\baek11403.cpp">
+      <Filter>소스 파일\graph</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
