@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\graph">
       <UniqueIdentifier>{47681322-f0e9-4ae0-b3e6-d82043fda43b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\tree">
+      <UniqueIdentifier>{8351ac4c-1851-4874-8c40-23ece658629c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="16DP\dp.cpp">
@@ -254,6 +257,21 @@
     </ClCompile>
     <ClCompile Include="23Graph\baek11403.cpp">
       <Filter>소스 파일\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="24Tree\baek1240.cpp">
+      <Filter>소스 파일\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="24Tree\baek1991.cpp">
+      <Filter>소스 파일\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="24Tree\baek4803.cpp">
+      <Filter>소스 파일\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="24Tree\baek11725.cpp">
+      <Filter>소스 파일\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="24Tree\baek15681.cpp">
+      <Filter>소스 파일\tree</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

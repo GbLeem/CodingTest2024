@@ -260,6 +260,11 @@
     <ClCompile Include="23Graph\graph.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="24Tree\baek11725.cpp" />
+    <ClCompile Include="24Tree\baek1240.cpp" />
+    <ClCompile Include="24Tree\baek15681.cpp" />
+    <ClCompile Include="24Tree\baek1991.cpp" />
+    <ClCompile Include="24Tree\baek4803.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
