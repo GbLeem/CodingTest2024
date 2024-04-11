@@ -273,5 +273,11 @@
     <ClCompile Include="24Tree\baek15681.cpp">
       <Filter>소스 파일\tree</Filter>
     </ClCompile>
+    <ClCompile Include="24Tree\tree.cpp">
+      <Filter>소스 파일\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="24Tree\tree_2.cpp">
+      <Filter>소스 파일\tree</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
