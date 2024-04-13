@@ -279,5 +279,8 @@
     <ClCompile Include="24Tree\tree_2.cpp">
       <Filter>소스 파일\tree</Filter>
     </ClCompile>
+    <ClCompile Include="23Graph\baek6118.cpp">
+      <Filter>소스 파일\graph</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
