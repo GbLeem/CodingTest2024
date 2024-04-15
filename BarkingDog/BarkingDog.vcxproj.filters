@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\tree">
       <UniqueIdentifier>{8351ac4c-1851-4874-8c40-23ece658629c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\hash">
+      <UniqueIdentifier>{6214ab94-9c22-46ff-a7cf-fbc63ea044e1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="16DP\dp.cpp">
@@ -284,6 +287,15 @@
     </ClCompile>
     <ClCompile Include="16DP\baek1463_12852.cpp">
       <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="25Hash\hash.cpp">
+      <Filter>소스 파일\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="25Hash\baek7785.cpp">
+      <Filter>소스 파일\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="25Hash\baek13414.cpp">
+      <Filter>소스 파일\hash</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
