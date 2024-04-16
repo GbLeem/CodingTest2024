@@ -16,10 +16,22 @@
     <Filter Include="소스 파일\stackqueue">
       <UniqueIdentifier>{8465c569-8e4f-4c16-b3c2-926bf9c9d84c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\hash">
+      <UniqueIdentifier>{0d6cb713-f521-423e-bd97-a1eff1213e67}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StackQueue\jusik.cpp">
       <Filter>소스 파일\stackqueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Hash\hash3.cpp">
+      <Filter>소스 파일\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="Hash\hash4.cpp">
+      <Filter>소스 파일\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="Hash\hash5.cpp">
+      <Filter>소스 파일\hash</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
