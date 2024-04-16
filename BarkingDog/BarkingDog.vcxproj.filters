@@ -297,5 +297,14 @@
     <ClCompile Include="25Hash\baek13414.cpp">
       <Filter>소스 파일\hash</Filter>
     </ClCompile>
+    <ClCompile Include="25Hash\baek1620.cpp">
+      <Filter>소스 파일\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="25Hash\baek9375.cpp">
+      <Filter>소스 파일\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="25Hash\baek17219.cpp">
+      <Filter>소스 파일\hash</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
