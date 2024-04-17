@@ -1,92 +1,69 @@
 #include <string>
 #include <vector>
+#include <tuple>
 #include <unordered_map>
 #include <algorithm>
 #include <iostream>
 using namespace std;
 
-unordered_map<string, int> um;
+bool cmp(const tuple<string, int, int> &a, const tuple<string, int, int> &b)
+{
+    return get<1>(a) > get<1>(b);
+}
 
-bool cmp(pair<string, int> a, pair<string, int> b)
+bool cmp2(const pair<string, int> &a, const pair<string, int> &b)
 {
     return a.second > b.second;
 }
-vector<int> solution(vector<string> genres, vector<int> plays)
+
+vector<int> solution(vector<string> genres, vector<int> plays) 
 {
     vector<int> answer;
+    vector<tuple<string, int, int>> vec;
+    unordered_map<string, int> us;
 
-    unordered_map<string, int> um;
-    
     for (int i = 0; i < genres.size(); ++i)
     {
-        um[genres[i]] += plays[i];
-    }
-    vector<pair<string, int>> vec(um.begin(), um.end());
+        vec.push_back({ genres[i], plays[i], i });
+        us[genres[i]] += plays[i];
+    }   
+    vector<pair<string, int>> scores(us.begin(), us.end());
+    sort(scores.begin(), scores.end(), cmp2);
+    sort(vec.begin(), vec.end(), cmp);
 
-    vector<pair<string, int>> temp(vec);
-    sort(temp.begin(), temp.end()); 
-    sort(vec.begin(), vec.end(), cmp); // pop 3100, classic 1450
-
-    string max1 = vec[0].first;
-    string max2 = vec[1].first;
-
-    while (1)
-    {
-        bool finish = false;
-        if (answer.size() == 4 || finish)
-            break;
-
-        vector<pair<int,int>> Scores;
-        for (int i = 0; i < temp.size(); ++i)
+    for (int i = 0; i < scores.size(); ++i)
+    {      
+        int cnt = 0;
+        for (int j = 0; j < vec.size(); ++j)
         {
-            if (max1 == temp[i].first)
+            if (get<0>(vec[j]) == scores[i].first)
             {
-                Scores.push_back({ temp[i].second, i });
+                answer.push_back(get<2>(vec[j]));
+                cnt++;
             }
-        }
-        if (Scores.size() == 1)
-        {
-            answer.push_back(Scores[0].first);
-            finish = true;
-        }
-        else
-        {
-            answer.push_back(Scores[0].second);
-            answer.push_back(Scores[1].second);
-        }
+            if (cnt == 2)
+                break;
+        }       
     }
 
-    /*for (int i = 0; i < genres.size(); ++i)
-    {
-        vec.push_back({ genres[i], plays[i] });
-    }*/
-
-
-    
-
-    /*for (auto u : vec)
-        cout << u.first << " " << u.second << "\n";*/
-    
-    /*  classic 150
-        classic 500
-        classic 800
-        pop 600
-        pop 2500*/
-
-   /* for (int i = 0; i < vec.size(); ++i)
-    {
-        
-    }
-    */
     return answer;
 }
 
 int main()
 {
-    vector<string> v1 = { "classic", "pop", "classic", "classic", "pop" };
-    vector<int> v2 = { 500, 600, 150, 800, 2500 };
+    vector<string> g = { "classic", "pop", "classic", "classic", "pop"};
+    vector<int> p = { 500, 600, 150, 800, 2500};
 
-    vector<int> ans = solution(v1, v2);
+    vector<string> g2 = { "classic", "classic", "classic", "classic", "pop" };
+    vector<int> p2 = { 50, 60, 100, 30, 8000 };
+
+    vector<string> g3 = { "classic",  "pop", "classic", "classic"};
+    vector<int> p3 = { 800,600,150, 800 }; //0 3 1
+
+    vector<string> g4 = { "pop", "pop", "pop", "rap", "rap" };
+    vector<int> p4 = { 45, 50, 40, 60, 70 }; //1 0 4 3
+
+    vector<int> ans = solution(g4, p4);
     for (auto a : ans)
         cout << a << " ";
 }
