@@ -40,6 +40,9 @@
     <Filter Include="소스 파일\hash">
       <UniqueIdentifier>{6214ab94-9c22-46ff-a7cf-fbc63ea044e1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\pq">
+      <UniqueIdentifier>{8969fc69-7deb-4021-9121-af2b552ff148}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="16DP\dp.cpp">
@@ -308,6 +311,21 @@
     </ClCompile>
     <ClCompile Include="21Hash\baek16165.cpp">
       <Filter>소스 파일\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="22PriorityQueue\baek1715.cpp">
+      <Filter>소스 파일\pq</Filter>
+    </ClCompile>
+    <ClCompile Include="22PriorityQueue\baek1927.cpp">
+      <Filter>소스 파일\pq</Filter>
+    </ClCompile>
+    <ClCompile Include="22PriorityQueue\baek2075.cpp">
+      <Filter>소스 파일\pq</Filter>
+    </ClCompile>
+    <ClCompile Include="22PriorityQueue\baek11286.cpp">
+      <Filter>소스 파일\pq</Filter>
+    </ClCompile>
+    <ClCompile Include="22PriorityQueue\pq.cpp">
+      <Filter>소스 파일\pq</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
