@@ -342,5 +342,8 @@
     <ClCompile Include="22BinarySearchTree\lowerbound_test.cpp">
       <Filter>소스 파일\binarySearchTree</Filter>
     </ClCompile>
+    <ClCompile Include="22BinarySearchTree\baek21939.cpp">
+      <Filter>소스 파일\binarySearchTree</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
