@@ -348,5 +348,8 @@
     <ClCompile Include="22BinarySearchTree\baek23326.cpp">
       <Filter>소스 파일\binarySearchTree</Filter>
     </ClCompile>
+    <ClCompile Include="20TwoPointer\baek22862.cpp">
+      <Filter>소스 파일\twoPointer</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -227,7 +227,9 @@
     </ClCompile>
     <ClCompile Include="19BinarySearch\baek3151.cpp" />
     <ClCompile Include="19BinarySearch\binarySearach.cpp" />
-    <ClCompile Include="20TwoPointer\baek13144.cpp" />
+    <ClCompile Include="20TwoPointer\baek13144.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="20TwoPointer\baek1644.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -246,6 +248,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="20TwoPointer\baek22862.cpp" />
     <ClCompile Include="21Hash\baek13414.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
