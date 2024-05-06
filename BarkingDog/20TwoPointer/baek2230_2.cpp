@@ -1,4 +1,4 @@
-//ì´ì¤‘ forë¬¸ O(N^2)ì— ì²˜ë¦¬ë˜ëŠ” ìž‘ì—…ì„ ë‘ê°œì˜ í¬ì¸í„°ë¡œ O(N)ì— í•´ê²°í•˜ê¸°
+//ÀÌÁß for¹® O(N^2)¿¡ Ã³¸®µÇ´Â ÀÛ¾÷À» µÎ°³ÀÇ Æ÷ÀÎÅÍ·Î O(N)¿¡ ÇØ°áÇÏ±â
 
 #include <iostream>
 #include <algorithm>

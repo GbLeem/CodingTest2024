@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\greedy">
       <UniqueIdentifier>{995f47bb-d146-4129-9c4b-2b991f3485d3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\ES">
+      <UniqueIdentifier>{2ca58444-d34b-46af-9904-b4a0c60dcb65}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StackQueue\jusik.cpp">
@@ -41,6 +44,9 @@
     </ClCompile>
     <ClCompile Include="Greedy\greedy2.cpp">
       <Filter>소스 파일\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="ExhaustiveSearch\es1.cpp">
+      <Filter>소스 파일\ES</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

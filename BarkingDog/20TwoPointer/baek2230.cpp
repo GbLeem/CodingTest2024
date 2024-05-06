@@ -1,4 +1,4 @@
-//<ì´ë¶„íƒìƒ‰ í’€ì´>
+//<ÀÌºÐÅ½»ö Ç®ÀÌ>
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -22,7 +22,7 @@ int main()
 
 	for (int i = 0; i < n; ++i)
 	{
-		if (lower_bound(a, a + n, a[i] + m) - a != n) //ì—†ëŠ” ê²½ìš° ì•„ë‹ˆë©´
+		if (lower_bound(a, a + n, a[i] + m) - a != n) //¾ø´Â °æ¿ì ¾Æ´Ï¸é
 		{
 			if (minVal > a[lower_bound(a, a + n, a[i] + m) - a] - a[i])
 				minVal = a[lower_bound(a, a + n, a[i] + m) - a] - a[i];
