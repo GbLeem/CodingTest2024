@@ -15,3 +15,5 @@ while (pqi.size() > 1)
 		pqi.push(a + b);
 	}
 
+***
+boj 1655
