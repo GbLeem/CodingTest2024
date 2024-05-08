@@ -351,5 +351,8 @@
     <ClCompile Include="20TwoPointer\baek22862.cpp">
       <Filter>소스 파일\twoPointer</Filter>
     </ClCompile>
+    <ClCompile Include="22PriorityQueue\baek13975.cpp">
+      <Filter>소스 파일\pq</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -32,7 +32,7 @@ int main()
 			int num;
 			cin >> num;
 
-			if (s.find(num) != s.end())//Ã£À¸¸é
+			if (s.find(num) != s.end())//Ã£ï¿½ï¿½ï¿½ï¿½
 				s.erase(num);
 			else
 				s.insert(num);	
