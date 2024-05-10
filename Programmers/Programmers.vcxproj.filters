@@ -25,6 +25,12 @@
     <Filter Include="소스 파일\ES">
       <UniqueIdentifier>{2ca58444-d34b-46af-9904-b4a0c60dcb65}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\heap">
+      <UniqueIdentifier>{d691bfd9-e17c-4759-b0b2-37a0adea0e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\sort">
+      <UniqueIdentifier>{00105c6f-7cb5-4fe9-910b-ff31fa186924}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StackQueue\jusik.cpp">
@@ -50,6 +56,15 @@
     </ClCompile>
     <ClCompile Include="ExhaustiveSearch\es2.cpp">
       <Filter>소스 파일\ES</Filter>
+    </ClCompile>
+    <ClCompile Include="Heap\heap3.cpp">
+      <Filter>소스 파일\heap</Filter>
+    </ClCompile>
+    <ClCompile Include="Heap\heap2.cpp">
+      <Filter>소스 파일\heap</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort\sort3.cpp">
+      <Filter>소스 파일\sort</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
