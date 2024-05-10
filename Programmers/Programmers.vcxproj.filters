@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\sort">
       <UniqueIdentifier>{00105c6f-7cb5-4fe9-910b-ff31fa186924}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\bfs">
+      <UniqueIdentifier>{efd86172-b25b-4d29-8e71-15ad1bb279b2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StackQueue\jusik.cpp">
@@ -65,6 +68,15 @@
     </ClCompile>
     <ClCompile Include="Sort\sort3.cpp">
       <Filter>소스 파일\sort</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS\bfs1.cpp">
+      <Filter>소스 파일\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS\bfs2.cpp">
+      <Filter>소스 파일\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS\bfs3.cpp">
+      <Filter>소스 파일\bfs</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
