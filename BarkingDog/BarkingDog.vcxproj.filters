@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\binarySearchTree">
       <UniqueIdentifier>{6572a0f5-b4b4-41ca-b469-b4e95b76121c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\bfs">
+      <UniqueIdentifier>{b14d61f2-2cef-4d7e-a061-496cbe0e3f62}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="16DP\dp.cpp">
@@ -356,6 +359,27 @@
     </ClCompile>
     <ClCompile Include="22PriorityQueue\baek1655.cpp">
       <Filter>소스 파일\pq</Filter>
+    </ClCompile>
+    <ClCompile Include="09BFS\baek1926.cpp">
+      <Filter>소스 파일\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="09BFS\baek2178.cpp">
+      <Filter>소스 파일\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="09BFS\baek7576.cpp">
+      <Filter>소스 파일\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="09BFS\baek4179.cpp">
+      <Filter>소스 파일\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="09BFS\baek1697.cpp">
+      <Filter>소스 파일\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="09BFS\baek14502.cpp">
+      <Filter>소스 파일\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="09BFS\baek16953.cpp">
+      <Filter>소스 파일\bfs</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
