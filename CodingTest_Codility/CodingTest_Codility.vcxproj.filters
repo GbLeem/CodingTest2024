@@ -75,7 +75,10 @@
     <ClCompile Include="Lesson6\NumberOfDiscIntersections.cpp">
       <Filter>소스 파일\6</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson5\c2.cpp">
+    <ClCompile Include="Lesson5\countDiv.cpp">
+      <Filter>소스 파일\5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson5\GenomicRangeQuery.cpp">
       <Filter>소스 파일\5</Filter>
     </ClCompile>
   </ItemGroup>
