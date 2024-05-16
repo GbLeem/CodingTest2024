@@ -1,32 +1,31 @@
-//#include <iostream>
-//#include <algorithm>
-//using namespace std;
-//
-//int n;
-//int d[1002];
-//int a[1002];
-//
-//int main()
-//{
-//	ios::sync_with_stdio(0);
-//	cin.tie(0);
-//
-//	cin >> n;
-//	for (int i = 0; i < n; ++i)
-//	{
-//		cin >> a[i];
-//		d[i] = a[i]; //1 100 2 50 60 3 5 6 7 8
-//	}
-//
-//	for (int i = 0; i < n; ++i)
-//	{
-//		for (int j = 0; j < i; ++j)
-//		{
-//			if (a[j] < a[i])
-//			{
-//				d[i] = max(d[j] + a[i], d[i]);
-//			}
-//		}
-//	}
-//	cout << *max_element(d, d + n);
-//}
+//가장 큰 증가하는 부분 수열
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int n;
+int board[1005];
+int d[1005];
+
+int main()
+{
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+
+	cin >> n;
+	for (int i = 0; i < n; ++i)
+	{
+		cin >> board[i];
+		d[i] = board[i];
+	}
+
+	for (int i = 0; i < n; ++i)
+	{
+		for (int j = 0; j < i; ++j)
+		{
+			if (board[i] > board[j])
+				d[i] = max(d[i], d[j] + board[i]);
+		}
+	}
+	cout << *max_element(d, d + n + 2);
+}

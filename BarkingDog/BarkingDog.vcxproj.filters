@@ -49,6 +49,9 @@
     <Filter Include="소스 파일\bfs">
       <UniqueIdentifier>{b14d61f2-2cef-4d7e-a061-496cbe0e3f62}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\DP\ex">
+      <UniqueIdentifier>{55196a93-59f5-4583-9e43-e27dc93a0e54}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="16DP\dp.cpp">
@@ -386,6 +389,36 @@
     </ClCompile>
     <ClCompile Include="09BFS\baek2206_2.cpp">
       <Filter>소스 파일\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="16DP\ex\baek1464_2.cpp">
+      <Filter>소스 파일\DP\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="16DP\ex\baek9095_2.cpp">
+      <Filter>소스 파일\DP\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="16DP\ex\baek2579_2.cpp">
+      <Filter>소스 파일\DP\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="16DP\ex\baek2579_3.cpp">
+      <Filter>소스 파일\DP\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="16DP\ex\baek1149_2.cpp">
+      <Filter>소스 파일\DP\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="16DP\ex\baek11726_2.cpp">
+      <Filter>소스 파일\DP\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="16DP\ex\baek11659_2.cpp">
+      <Filter>소스 파일\DP\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="16DP\baek9461.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="16DP\baek14501.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="16DP\baek10844.cpp">
+      <Filter>소스 파일\DP</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
