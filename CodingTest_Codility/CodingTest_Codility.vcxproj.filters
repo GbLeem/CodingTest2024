@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\7">
       <UniqueIdentifier>{0f1a43e7-1c56-4d2f-b7bf-c02941a93257}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\ex1">
+      <UniqueIdentifier>{2023445a-dd82-4778-963f-4b89dce1ff46}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lesson1\BinaryGap.cpp">
@@ -80,6 +83,15 @@
     </ClCompile>
     <ClCompile Include="Lesson5\GenomicRangeQuery.cpp">
       <Filter>소스 파일\5</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercise1\2015contest1.cpp">
+      <Filter>소스 파일\ex1</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercise1\2015contest2.cpp">
+      <Filter>소스 파일\ex1</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercise1\2015contest3.cpp">
+      <Filter>소스 파일\ex1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

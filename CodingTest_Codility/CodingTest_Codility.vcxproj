@@ -127,6 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Exercise1\2015contest1.cpp" />
+    <ClCompile Include="Exercise1\2015contest2.cpp" />
+    <ClCompile Include="Exercise1\2015contest3.cpp" />
     <ClCompile Include="Lesson1\BinaryGap.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
