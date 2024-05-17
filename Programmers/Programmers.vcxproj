@@ -127,9 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BFS\bfs1.cpp" />
+    <ClCompile Include="BFS\bfs1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="BFS\bfs2.cpp" />
     <ClCompile Include="BFS\bfs3.cpp" />
+    <ClCompile Include="DP\dp2.cpp" />
     <ClCompile Include="ExhaustiveSearch\es1.cpp" />
     <ClCompile Include="ExhaustiveSearch\es2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>

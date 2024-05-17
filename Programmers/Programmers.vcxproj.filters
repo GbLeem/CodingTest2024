@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\bfs">
       <UniqueIdentifier>{efd86172-b25b-4d29-8e71-15ad1bb279b2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\DP">
+      <UniqueIdentifier>{502e03a5-a07a-48d0-afc0-4745e383fde1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StackQueue\jusik.cpp">
@@ -77,6 +80,9 @@
     </ClCompile>
     <ClCompile Include="BFS\bfs3.cpp">
       <Filter>소스 파일\bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="DP\dp2.cpp">
+      <Filter>소스 파일\DP</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
