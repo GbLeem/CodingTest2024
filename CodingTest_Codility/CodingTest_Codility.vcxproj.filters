@@ -123,5 +123,8 @@
     <ClCompile Include="Exercise5\CodingSkills1.cpp">
       <Filter>소스 파일\ex5</Filter>
     </ClCompile>
+    <ClCompile Include="Exercise5\CodingSkills2.cpp">
+      <Filter>소스 파일\ex5</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
