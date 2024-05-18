@@ -127,9 +127,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Exercise1\2015contest1.cpp" />
+    <ClCompile Include="Exercise1\2015contest1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Exercise1\2015contest2.cpp" />
     <ClCompile Include="Exercise1\2015contest3.cpp" />
+    <ClCompile Include="Exercise3\2017contest1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Exercise4\algorithmicSkills1.cpp" />
+    <ClCompile Include="Exercise4\algorithmicSkills2.cpp" />
+    <ClCompile Include="Exercise4\algorithmicSkills3.cpp" />
+    <ClCompile Include="Exercise4\algorithmicSkills4.cpp" />
     <ClCompile Include="Lesson1\BinaryGap.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

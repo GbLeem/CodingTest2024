@@ -80,7 +80,7 @@ int main()
     cout << solution(s) << "\n";    //7
     cout << solution(s1)<<"\n";     //3
     cout << solution(s2)<<"\n";     //-1   
-    cout << solution(s3)<<"\n";     //2
+    cout << solution(s3)<<"\n";     //-1
     cout << solution(s4) << "\n";   //-1
     cout << solution(s5) << "\n";   //-1
     cout << solution(s6) << "\n";   //-1
