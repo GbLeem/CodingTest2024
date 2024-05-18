@@ -6,7 +6,7 @@
 
 struct tree
 {
-    int data;
+    int x;
     tree* l;
     tree* r;
 };
@@ -14,7 +14,7 @@ struct tree
 tree* newNode(int data)
 {
     tree* Tree = new tree();
-    Tree->data = data;
+    Tree->x = data;
     Tree->l = nullptr;
     Tree->r = nullptr;
 
@@ -33,6 +33,7 @@ int treeHeight(tree* T)
     else
         return rightLength + 1;
 }
+
 int solution(tree* T)
 {
     return treeHeight(T);
