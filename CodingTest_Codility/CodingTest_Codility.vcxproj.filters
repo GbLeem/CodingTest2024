@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\ex4">
       <UniqueIdentifier>{b598e268-33a2-46f5-b904-ff0d59896b70}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\ex5">
+      <UniqueIdentifier>{2539ef91-bc25-4323-9a44-b45ea9698726}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lesson1\BinaryGap.cpp">
@@ -116,6 +119,9 @@
     </ClCompile>
     <ClCompile Include="Exercise4\algorithmicSkills1.cpp">
       <Filter>소스 파일\ex4</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercise5\CodingSkills1.cpp">
+      <Filter>소스 파일\ex5</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
