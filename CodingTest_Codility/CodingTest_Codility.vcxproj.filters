@@ -135,5 +135,8 @@
     <ClCompile Include="Exercise2\2016contest1.cpp">
       <Filter>소스 파일\ex2</Filter>
     </ClCompile>
+    <ClCompile Include="Exercise3\2017contest2.cpp">
+      <Filter>소스 파일\ex3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
