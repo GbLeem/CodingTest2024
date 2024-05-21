@@ -233,6 +233,8 @@
     <ClCompile Include="Lesson7\Brackets.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Lesson8\Dominator.cpp" />
+    <ClCompile Include="Lesson8\EquiLeader.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

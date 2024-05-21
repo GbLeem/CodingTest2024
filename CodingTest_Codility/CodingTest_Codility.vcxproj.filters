@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\ex7">
       <UniqueIdentifier>{0d8a12db-cc9c-4a1b-b4b4-7bb844757ad1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\8">
+      <UniqueIdentifier>{2470f99a-b45a-4fc2-9369-34fa6cef0694}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lesson1\BinaryGap.cpp">
@@ -143,6 +146,12 @@
     </ClCompile>
     <ClCompile Include="Exercise5\CodingSkills3.cpp">
       <Filter>소스 파일\ex5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson8\Dominator.cpp">
+      <Filter>소스 파일\8</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson8\EquiLeader.cpp">
+      <Filter>소스 파일\8</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
