@@ -25,12 +25,6 @@
 #include <algorithm>
 using namespace std;
 
-//int solution(vector<int>& A)
-//{
-//	
-//}
-//N은 100000
-
 bool isused[100002];
 int arr[100002];
 int ans = 0;

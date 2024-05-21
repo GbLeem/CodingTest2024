@@ -32,9 +32,6 @@ int solution(int K, vector<int>& C, vector<int>& D)
 		}
 	}
 
-	//1 1 1 2
-	//1 2 3 4 4
-
 	//K = 3
 	// 1 1 1 
 	// 1 2 3 4 4 -> 0 2 2 4 4 
