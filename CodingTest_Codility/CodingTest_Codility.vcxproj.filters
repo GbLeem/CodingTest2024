@@ -138,5 +138,8 @@
     <ClCompile Include="Exercise3\2017contest2.cpp">
       <Filter>소스 파일\ex3</Filter>
     </ClCompile>
+    <ClCompile Include="Exercise4\mergesort_inversion.cpp">
+      <Filter>소스 파일\ex4</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
