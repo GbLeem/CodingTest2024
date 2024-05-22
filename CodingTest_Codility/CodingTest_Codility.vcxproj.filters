@@ -55,6 +55,9 @@
     <Filter Include="소스 파일\8">
       <UniqueIdentifier>{2470f99a-b45a-4fc2-9369-34fa6cef0694}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\9">
+      <UniqueIdentifier>{d0a8cc18-b1af-4c0f-ba7b-9cbee91b30ca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lesson1\BinaryGap.cpp">
@@ -152,6 +155,9 @@
     </ClCompile>
     <ClCompile Include="Lesson8\EquiLeader.cpp">
       <Filter>소스 파일\8</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson9\MaxProfit.cpp">
+      <Filter>소스 파일\9</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
