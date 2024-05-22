@@ -58,6 +58,9 @@
     <Filter Include="소스 파일\9">
       <UniqueIdentifier>{d0a8cc18-b1af-4c0f-ba7b-9cbee91b30ca}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\15">
+      <UniqueIdentifier>{54b6b6b0-eb1e-4e36-8ae3-7faaaa77e77b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lesson1\BinaryGap.cpp">
@@ -158,6 +161,9 @@
     </ClCompile>
     <ClCompile Include="Lesson9\MaxProfit.cpp">
       <Filter>소스 파일\9</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson16\MaxNonoverlappingSegments.cpp">
+      <Filter>소스 파일\15</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
