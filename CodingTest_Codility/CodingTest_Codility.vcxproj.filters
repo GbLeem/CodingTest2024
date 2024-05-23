@@ -61,6 +61,9 @@
     <Filter Include="소스 파일\15">
       <UniqueIdentifier>{54b6b6b0-eb1e-4e36-8ae3-7faaaa77e77b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\10">
+      <UniqueIdentifier>{36a4b43e-ea66-4b9f-b471-68f5a5a7b04e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lesson1\BinaryGap.cpp">
@@ -164,6 +167,9 @@
     </ClCompile>
     <ClCompile Include="Lesson16\MaxNonoverlappingSegments.cpp">
       <Filter>소스 파일\15</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson10\CountFactors.cpp">
+      <Filter>소스 파일\10</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
