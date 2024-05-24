@@ -20,7 +20,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_star\Astar.cpp" />
-    <ClCompile Include="QuadTree\QuadTree.cpp" />
+    <ClCompile Include="QuadTree\QuadTree.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
