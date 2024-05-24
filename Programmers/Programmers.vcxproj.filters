@@ -84,5 +84,11 @@
     <ClCompile Include="DP\dp2.cpp">
       <Filter>소스 파일\DP</Filter>
     </ClCompile>
+    <ClCompile Include="StackQueue\stackqueue4.cpp">
+      <Filter>소스 파일\stackqueue</Filter>
+    </ClCompile>
+    <ClCompile Include="StackQueue\stackqueue5.cpp">
+      <Filter>소스 파일\stackqueue</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
