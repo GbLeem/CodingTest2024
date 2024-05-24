@@ -13,5 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Astar">
+      <UniqueIdentifier>{88209776-c1e8-4d57-bbd0-f4ae3f970d9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\QuadTree">
+      <UniqueIdentifier>{91399fd3-45b8-4549-a73b-7cd3fbd72b8a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="A_star\Astar.cpp">
+      <Filter>소스 파일\Astar</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree\QuadTree.cpp">
+      <Filter>소스 파일\QuadTree</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
