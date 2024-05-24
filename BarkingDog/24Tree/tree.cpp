@@ -10,7 +10,7 @@
 #include <queue>
 using namespace std;
 
-vector<int> adj[10];
+vector<int> adj[10]; //연결 관계가 들어있는 벡터
 int p[10]; //부모를 저장
 int depth[10];
 

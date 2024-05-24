@@ -1,0 +1,38 @@
+트리 구조로 된 bfs dfs구현할때 쓰는 방법
+vis 배열 두지 않고 p 배열(부모 저장하는 배열) 둬서 계산한다.
+
+//
+vector<int> adj[]; //인접한 값들 가진 벡터
+int p[];
+int depth[]; //깊이 배열도 필요하다면..
+
+void bfs(int root)
+{
+	queue<int> q;
+	q.push(root);
+   	while(!q.empty())
+	{
+		int cur = q.front();
+		q.pop();
+		for(int nxt : adj[cur])
+		{
+			if(p[cur] == nxt)
+				continue;
+			p[nxt] = cur;
+			q.push(nxt);
+			depth[nxt] = depth[cur] + 1;		
+		}
+	}
+}
+
+void dfs(int cur)
+{
+	for(int nxt : adj[cur])
+	{
+		if(p[cur] == nxt)
+			continue;
+		p[nxt] = cur;
+		depth[nxt] = depth[cur] + 1;
+		dfs(nxt);
+	}
+}
