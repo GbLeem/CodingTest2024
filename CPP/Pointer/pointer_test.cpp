@@ -22,32 +22,6 @@ void refSwap(int& p_a, int& p_b)
 	p_b = temp;
 }
 
-class Base
-{
-public:
-	virtual void Foo()
-	{
-		printf("Base::Foo\n");
-	}
-	void Bar()
-	{
-		printf("Base::Bar\n");
-	}
-};
-
-class Derived : public Base
-{
-public:
-	virtual void Foo()
-	{
-		printf("Derived::Foo\n");
-	}
-	void Bar()
-	{
-		printf("Derived::Bar\n");
-	}
-};
-
 int main()
 {
 	//=============포인터===============
@@ -61,17 +35,6 @@ int main()
 	cout << p << " " << q << "\n"; //5 100
 
 	cout << "\n\n";
-
-	//==============가상함수==================
-	//가상 함수는 파생 클래스에서 다시 정의할 멤버 함수
-
-	Derived* d = new Derived();
-	Base* b = reinterpret_cast<Base*>(d);
-
-	d->Foo(); //derived foo
-	d->Bar(); //derived bar
-	b->Foo(); //derived foo
-	b->Bar(); //base bar
 
 
 	return 0;

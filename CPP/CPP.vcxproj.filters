@@ -16,9 +16,33 @@
     <Filter Include="소스 파일\Pointer">
       <UniqueIdentifier>{67bf1b9c-fa8c-48d4-87a4-3f96337b9871}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Inheritance">
+      <UniqueIdentifier>{8be20987-99b7-4d8c-a332-b727c277c491}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Pointer\pointer_test.cpp">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Inheritance\inheritance_test.cpp">
+      <Filter>소스 파일\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="Inheritance\inheritance_test01.cpp">
+      <Filter>소스 파일\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="Inheritance\inheritance_test02.cpp">
+      <Filter>소스 파일\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="Inheritance\inheritance_test03.cpp">
+      <Filter>소스 파일\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="Inheritance\inheritance_test04.cpp">
+      <Filter>소스 파일\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="Inheritance\inheritance_test05.cpp">
+      <Filter>소스 파일\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="Pointer\pointer_to_pointer_test.cpp">
       <Filter>소스 파일\Pointer</Filter>
     </ClCompile>
   </ItemGroup>
