@@ -11,7 +11,7 @@ void teleport(int cur)
 {
 	int nxt = cur;
 	
-	//시간 초과 방지해줌 왜?
+	//시간 초과 방지해줌 왜
 	if (nxt == 0)
 		return;
 
