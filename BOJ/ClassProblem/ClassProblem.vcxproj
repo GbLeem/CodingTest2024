@@ -132,7 +132,9 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="bojClass4\baek1167.cpp" />
+    <ClCompile Include="bojClass4\baek13549.cpp" />
     <ClCompile Include="bojClass4\baek1916.cpp" />
+    <ClCompile Include="bojClass4\baek5639.cpp" />
     <ClCompile Include="bojClass4\baek9465.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
