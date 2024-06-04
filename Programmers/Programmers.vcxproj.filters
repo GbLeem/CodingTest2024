@@ -37,6 +37,12 @@
     <Filter Include="소스 파일\DP">
       <UniqueIdentifier>{502e03a5-a07a-48d0-afc0-4745e383fde1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Level2">
+      <UniqueIdentifier>{20a05bf3-477a-4215-a2c6-11f5014f783d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Level3">
+      <UniqueIdentifier>{993acccd-8608-4677-a4bc-ede0cb3c7d8b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StackQueue\jusik.cpp">
@@ -89,6 +95,48 @@
     </ClCompile>
     <ClCompile Include="StackQueue\stackqueue5.cpp">
       <Filter>소스 파일\stackqueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2\level2_1.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2\level2_2.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2\level2_3.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2\level2_4.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2\level2_5.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2\level2_6.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2\level2_7.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2\level2_8.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3\level3_1.cpp">
+      <Filter>소스 파일\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3\level3_2.cpp">
+      <Filter>소스 파일\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3\level3_3.cpp">
+      <Filter>소스 파일\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3\level3_4.cpp">
+      <Filter>소스 파일\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3\level3_5.cpp">
+      <Filter>소스 파일\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3\level3_6.cpp">
+      <Filter>소스 파일\Level3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
