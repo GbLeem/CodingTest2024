@@ -144,5 +144,17 @@
     <ClCompile Include="Level3\level3_8.cpp">
       <Filter>소스 파일\Level3</Filter>
     </ClCompile>
+    <ClCompile Include="Greedy\greedy4.cpp">
+      <Filter>소스 파일\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3\level3_9.cpp">
+      <Filter>소스 파일\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3\level3_10.cpp">
+      <Filter>소스 파일\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3\level3_11.cpp">
+      <Filter>소스 파일\Level3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
