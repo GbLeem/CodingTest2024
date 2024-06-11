@@ -21,12 +21,26 @@ int solution(int n, vector<int> stations, int w)
             vec[stations[i] + w + 1 - j]++;// 9 + 2 -1 = 10
         }
     }
+    vector<int> temp(n);
+    int idx = 0;
+    for (int i = 1; i < n; ++i)
+    {
+        if (vec[i] == 0) //방문 x
+        {
+            temp[idx]++;                  
+        }
+        if(vec[i] ==1)
+            idx++;
+    }
 
-    for (int i = 1; i <= n; ++i)
-        cout << vec[i] << " ";
-
-
-
+   for(auto t: temp)
+   {
+       while (t > 2 * w + 1)
+       {
+           answer++;
+           t -= 2 * w + 1;
+       }
+   }
 
     return answer;
 }
@@ -34,5 +48,5 @@ int solution(int n, vector<int> stations, int w)
 int main()
 {
     vector<int> s = { 4,11 };
-    solution(11, s, 1);
+    cout<<solution(11, s, 1);
 }
