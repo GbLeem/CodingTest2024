@@ -17,7 +17,7 @@ vector<int> solution(vector<int> answers)
     vector<int> two = { 2, 1, 2, 3, 2, 4, 2, 5 };
     vector<int> three = { 3, 3, 1, 1, 2, 2, 4, 4, 5, 5 };
     
-    //³ª¸ÓÁö ¿¬»ê
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     int oneA = 0;
     int twoA = 0;
     int threeA = 0;
