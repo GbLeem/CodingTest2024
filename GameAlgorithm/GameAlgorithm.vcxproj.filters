@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\QuadTree">
       <UniqueIdentifier>{91399fd3-45b8-4549-a73b-7cd3fbd72b8a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\bst">
+      <UniqueIdentifier>{49b85391-4b89-428e-8367-89d188368149}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="A_star\Astar.cpp">
@@ -27,5 +30,16 @@
     <ClCompile Include="QuadTree\QuadTree.cpp">
       <Filter>소스 파일\QuadTree</Filter>
     </ClCompile>
+    <ClCompile Include="BST\BinarySearchTree.cpp">
+      <Filter>소스 파일\bst</Filter>
+    </ClCompile>
+    <ClCompile Include="BST\main.cpp">
+      <Filter>소스 파일\bst</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BST\BinarySearchTree.h">
+      <Filter>소스 파일\bst</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
