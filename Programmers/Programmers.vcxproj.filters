@@ -183,5 +183,20 @@
     <ClCompile Include="Graph\graph3.cpp">
       <Filter>소스 파일\graph</Filter>
     </ClCompile>
+    <ClCompile Include="ExhaustiveSearch\es3.cpp">
+      <Filter>소스 파일\ES</Filter>
+    </ClCompile>
+    <ClCompile Include="ExhaustiveSearch\es5.cpp">
+      <Filter>소스 파일\ES</Filter>
+    </ClCompile>
+    <ClCompile Include="ExhaustiveSearch\es6.cpp">
+      <Filter>소스 파일\ES</Filter>
+    </ClCompile>
+    <ClCompile Include="ExhaustiveSearch\es7.cpp">
+      <Filter>소스 파일\ES</Filter>
+    </ClCompile>
+    <ClCompile Include="ExhaustiveSearch\es5_2.cpp">
+      <Filter>소스 파일\ES</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
