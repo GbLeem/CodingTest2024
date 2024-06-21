@@ -198,5 +198,8 @@
     <ClCompile Include="ExhaustiveSearch\es5_2.cpp">
       <Filter>소스 파일\ES</Filter>
     </ClCompile>
+    <ClCompile Include="Level2\level2_12.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
