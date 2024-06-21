@@ -7,5 +7,5 @@
 
 https://github.com/GbLeem/CodingTest2024/assets/86725870/3243275e-9d0e-4da8-8c9f-3d31ae82c9e2
 ### Red Black Tree
-https://github.com/GbLeem/CodingTest2024/assets/86725870/2b1973e0-6aed-4852-b2d7-7090f0999ee6
+https://github.com/GbLeem/CodingTest2024/assets/86725870/c46006ca-69a9-4a66-90ca-339194f9ecf7
 
