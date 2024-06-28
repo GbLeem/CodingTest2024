@@ -48,5 +48,14 @@
     <ClCompile Include="bojClass4\baek12851_2.cpp">
       <Filter>소스 파일\4</Filter>
     </ClCompile>
+    <ClCompile Include="bojClass4\baek9935.cpp">
+      <Filter>소스 파일\4</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass4\baek9935_2.cpp">
+      <Filter>소스 파일\4</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass4\baek9935_3.cpp">
+      <Filter>소스 파일\4</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
