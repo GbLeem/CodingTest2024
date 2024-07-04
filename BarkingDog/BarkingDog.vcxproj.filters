@@ -438,5 +438,14 @@
     <ClCompile Include="23Graph\baek1325.cpp">
       <Filter>소스 파일\graph</Filter>
     </ClCompile>
+    <ClCompile Include="16DP\ex\baek11053_2.cpp">
+      <Filter>소스 파일\DP\ex</Filter>
+    </ClCompile>
+    <ClCompile Include="16DP\baek2748.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="16DP\baek2240.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
