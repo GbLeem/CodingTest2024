@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\4">
       <UniqueIdentifier>{63e27833-a837-4c46-be78-dc3d75ef4611}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\3">
+      <UniqueIdentifier>{c1a8bd75-ccb8-4657-b0de-743f0f485c07}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bojClass4\baek1002.cpp">
@@ -56,6 +59,54 @@
     </ClCompile>
     <ClCompile Include="bojClass4\baek9935_3.cpp">
       <Filter>소스 파일\4</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\baek30804.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\baek1003.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\baek1107.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\baek1463.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\baek1541.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\baek1620.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\baek1764.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\baek1927.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\baek1931.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\baek11047.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\baek14940.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\baek18870.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\baek2630.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\class1_baek31403.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\class1_baek10250.cpp">
+      <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="bojClass3\class2_baek1018.cpp">
+      <Filter>소스 파일\3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
