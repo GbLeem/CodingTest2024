@@ -216,5 +216,23 @@
     <ClCompile Include="Level3\level3_14.cpp">
       <Filter>소스 파일\Level3</Filter>
     </ClCompile>
+    <ClCompile Include="Level2\level2_17.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2\level2_18.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2\level2_19.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2\level2_20.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2\level2_21.cpp">
+      <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="DP\dp_study1.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
