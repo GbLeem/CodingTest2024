@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\3">
       <UniqueIdentifier>{c1a8bd75-ccb8-4657-b0de-743f0f485c07}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\temp">
+      <UniqueIdentifier>{e24a1203-80f2-4fe3-80f9-f26a578c9741}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bojClass4\baek1002.cpp">
@@ -110,6 +113,15 @@
     </ClCompile>
     <ClCompile Include="bojClass3\baek18111.cpp">
       <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\BFS_baek10026.cpp">
+      <Filter>소스 파일\temp</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\BFS_study.cpp">
+      <Filter>소스 파일\temp</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\BFS_baek2583.cpp">
+      <Filter>소스 파일\temp</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

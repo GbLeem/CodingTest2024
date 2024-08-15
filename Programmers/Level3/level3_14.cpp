@@ -121,3 +121,64 @@
 //    for (auto v : vec)
 //        cout << v << " ";
 //}
+
+//#include <iostream>
+//#include <string>
+//#include <vector>
+//#include <algorithm>
+//using namespace std;
+//
+//vector<string> answer;
+//vector<vector<string>> ticket;
+//bool check[10005];
+//bool isFind = false;
+//
+//void dfs(string start, int cnt)
+//{
+//    answer.push_back(start);
+//    if (ticket.size() == cnt)
+//        isFind = true;
+//    for (int i = 0; i < ticket.size(); ++i)
+//    {
+//        if (check[i])
+//            continue;
+//        if (ticket[i][0] == start)
+//        {
+//            check[i] = true;
+//            dfs(ticket[i][1], cnt + 1);
+//
+//            if (!isFind)
+//            {
+//                answer.pop_back();
+//                check[i] = false;
+//            }
+//        }
+//    }
+//}
+//
+//vector<string> solution(vector<vector<string>> tickets) 
+//{
+//    sort(tickets.begin(), tickets.end());
+//    ticket = tickets;
+//    
+//    dfs("ICN", 0);
+//
+//    return answer;
+//}
+//int main()
+//{
+//    vector<vector<string>> tickets = { {"ICN", "JFK"} ,{"HND", "IAD"},{"JFK", "HND"} };
+//    vector<vector<string>> tickets2 = { {"ICN", "SFO" }, { "ICN", "ATL" }, { "SFO", "ATL" }, { "ATL", "ICN" }, { "ATL","SFO" } };
+//    vector<vector<string>> tickets3 = { {"ICN", "BBB"}, {"BBB", "ICN"}, {"ICN","AAA"} };
+//    vector<vector<string>> tickets4 = { {"ICN", "AAA"}, {"AAA","ICN"},{"ICN","CCC"},{"CCC","ICN"},{"ICN","DDD"},{"DDD","AAA"} };
+//    vector<vector<string>> tickets5 = { {"ICN", "JFK"} ,{"ICN", "AAD"},{"JFK", "ICN"} };
+//    vector<vector<string>> tickets6 = { {"ICN", "AAA"} ,{"AAA", "ICN"},{"ICN", "CCC"},{"ICN", "DDD"},{"DDD", "ICN"} };
+//    vector<vector<string>> tickets7 = { {"ICN", "AAA"}, {"ICN","AAA"},{"AAA","ICN"} };
+//    vector<vector<string>> tickets8 = { {"ICN", "BOO"},{"ICN", "COO"},{"COO", "DOO"},{"DOO", "COO"},{"BOO", "DOO"},{"DOO", "BOO"},{"BOO", "ICN"},{"COO", "BOO"} };
+//    //ans : ["ICN", "BOO", "DOO", "BOO", "ICN", "COO", "DOO", "COO", "BOO"]
+//
+//    auto vec = solution(tickets8);
+//
+//    for (auto v : vec)
+//        cout << v << " ";
+//}
