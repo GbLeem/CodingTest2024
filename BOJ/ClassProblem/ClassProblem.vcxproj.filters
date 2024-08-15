@@ -123,5 +123,11 @@
     <ClCompile Include="temp\BFS_baek2583.cpp">
       <Filter>소스 파일\temp</Filter>
     </ClCompile>
+    <ClCompile Include="temp\DP_baek11055.cpp">
+      <Filter>소스 파일\temp</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\DP_baek11053.cpp">
+      <Filter>소스 파일\temp</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
