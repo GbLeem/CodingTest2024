@@ -1,3 +1,4 @@
+//도넛과 막대 그래프
 #include <iostream>
 #include <string>
 #include <vector>
@@ -5,30 +6,21 @@
 #include <queue>
 using namespace std;
 
-int cnt[1000002];
-vector<vector<int>> adj(1000002);
-vector<int> realadj[1000002];
-int vis[1000002];
-//한 점을 알때 해당 그래프의 타입 구하기
-int countType(vector<vector<int>> edges, int n)
-{
-    int cnt = 0;
-    for (int i = 0; i < edges.size(); ++i)
-    {
-        if (edges[i][0] == n)
-            cnt++;
-        if (edges[i][1] == n)
-            cnt++;
-    }
-    return cnt;
-}
+int cnt[1000002]; //가장 많이 연결된 vertex 찾기
+vector<vector<int>> adj(1000002); //가장 많이연결된 vertex와 연결된 vertex의 모음
+vector<int> realadj[1000002];//dfs용 배열
+int vis[1000002];//dfs용 배열
+
 int c1 = 0;
+int c2 = 0;
+
 void dfs(int cur)
 {
-    c1++;
+    c1++; //정점의 갯수
     vis[cur] = 1;
     for (auto nxt : realadj[cur])
     {
+        c2++;
         if (vis[nxt])
             continue;
         dfs(nxt);
@@ -73,11 +65,6 @@ vector<int> solution(vector<vector<int>> edges)
     //가장 maxEdgesVertex와 연결된 vertex 찾기
     int adjVertexSize = adj[maxEdgesVertex].size();
 
-    //for(int i = 0;i < adjVertex; ++i)
-    //{
-    //    cout<<adj[maxEdgesVertex][i]<<" ";
-    //}
-
     int dounut = 0;
     int mak = 0;
     int eight = 0;
@@ -85,15 +72,18 @@ vector<int> solution(vector<vector<int>> edges)
     {
         int adjVertex = adj[maxEdgesVertex][i];
 
-        int count = countType(edges, adjVertex);
-        //cout<<adjVertex<<" :"<<count<<"\n";
-
-        if (count <= 2)
-            mak++;
-        else if (count > 2 && count <= 3)
-            dounut++;
-        else
+        //초기화
+        fill(vis, vis + 1000002, 0);
+        c1 = 0; //정점
+        c2 = 0; //엣지
+        dfs(adjVertex);     
+        
+        if (c2 == c1 + 1)
             eight++;
+        else if (c2 == c1 - 1)
+            mak++;
+        else if(c2 == c1)
+            dounut++;
     }
 
     answer.push_back(maxEdgesVertex);
@@ -103,4 +93,12 @@ vector<int> solution(vector<vector<int>> edges)
 
 
     return answer;
+}
+
+int main()
+{
+    vector<vector<int>> v1 = { {2,3},{4,3},{1,1},{2,1} };
+    vector<vector<int>> v2 = { {4,11},{1,12},{8,3},{12,7},{4,2},{7,11},{4,8},{9,6},{10,11},
+        {6,10},{3,5},{11,1},{5,3},{11,9},{3,8} };
+    solution(v2);
 }

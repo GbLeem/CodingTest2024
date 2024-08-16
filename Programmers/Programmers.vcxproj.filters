@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\graph">
       <UniqueIdentifier>{172161cd-dff4-4d43-bb96-ffe9dbe2a0fe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Test1">
+      <UniqueIdentifier>{68a69ea1-b0a6-4829-bdb4-e393310c45ca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StackQueue\jusik.cpp">
@@ -239,6 +242,18 @@
     </ClCompile>
     <ClCompile Include="Level2\level2_23.cpp">
       <Filter>소스 파일\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="DP\dp_study2.cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="Test1\test1.cpp">
+      <Filter>소스 파일\Test1</Filter>
+    </ClCompile>
+    <ClCompile Include="Test1\test2.cpp">
+      <Filter>소스 파일\Test1</Filter>
+    </ClCompile>
+    <ClCompile Include="Test1\test2_2.cpp">
+      <Filter>소스 파일\Test1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

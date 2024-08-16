@@ -9,14 +9,6 @@ string makeTwo(int n)
     string str = "";
     while (1)
     {
-        if (n == 1)
-        {
-            s.push(n);
-        }
-        else if (n == 0)
-        {
-            s.push(n);
-        }
         s.push(n % 2);
         n /= 2;
     }
@@ -30,7 +22,7 @@ int solution(int n)
 {
     int answer = 0;
 
-
+    
 
     return answer;
 }
