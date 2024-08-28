@@ -150,5 +150,14 @@
     <ClCompile Include="temp\DP_baek2302.cpp">
       <Filter>소스 파일\temp</Filter>
     </ClCompile>
+    <ClCompile Include="temp\DP_baek14002.cpp">
+      <Filter>소스 파일\temp</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\BS_study.cpp">
+      <Filter>소스 파일\temp</Filter>
+    </ClCompile>
+    <ClCompile Include="temp\Math_study.cpp">
+      <Filter>소스 파일\temp</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
