@@ -4,6 +4,10 @@ using namespace std;
 class Base
 {
 public:
+	Base()
+	{
+		cout << "make base\n";
+	}
 	virtual void Foo()
 	{
 		printf("Base::Foo\n");
@@ -20,6 +24,10 @@ public:
 	{
 		cout << protectValue << "\n";
 	}
+	virtual ~Base()
+	{
+		cout << "destroy base\n";
+	}
 protected:
 	int protectValue = 0;
 };
@@ -27,6 +35,10 @@ protected:
 class Derived : public Base
 {
 public:
+	Derived()
+	{
+		cout << "make Derived\n";
+	}
 	virtual void Foo()
 	{
 		printf("Derived::Foo\n");
@@ -42,6 +54,10 @@ public:
 	void ChangeValue()
 	{
 		protectValue = 100;
+	}
+	virtual ~Derived()
+	{
+		cout << "destroy derived\n";
 	}
 };
 
@@ -78,4 +94,8 @@ int main()
 	d->PrintValue(); //0
 	d->ChangeValue();
 	d->PrintValue(); //100
+	
+	delete b;
+	delete b2;
+	//생성할때는 base 부터 생성, 소멸할때는 derived 부터 소멸
 }
