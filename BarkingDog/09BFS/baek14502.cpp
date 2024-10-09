@@ -2,7 +2,7 @@
 //#include <queue>
 //using namespace std;
 //
-//int n, m; //세로 가로
+//int n, m; //?�로 가�?
 //int board[10][10];
 //int vis[10][10];
 //
@@ -13,8 +13,8 @@
 //
 //	cin >> n >> m;
 //
-//	// 0 빈칸, 1 벽, 2 바이러스
-//	// 추가하는 벽 3개
+//	// 0 빈칸, 1 �? 2 바이?�스
+//	// 추�??�는 �?3�?
 //	int blank = 0;
 //	for (int i = 0; i < n; ++i)
 //	{
