@@ -19,9 +19,6 @@
     <Filter Include="소스 파일\Greedy">
       <UniqueIdentifier>{96863f75-3ca6-4698-9e79-e32ffbcb868d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Math">
-      <UniqueIdentifier>{f34964f9-7eb6-425b-9443-6a95b900efb2}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\BinarySearch">
       <UniqueIdentifier>{45c7961e-07e3-4f80-94a5-dc9e41964587}</UniqueIdentifier>
     </Filter>
@@ -51,6 +48,9 @@
     </Filter>
     <Filter Include="소스 파일\DP\ex">
       <UniqueIdentifier>{55196a93-59f5-4583-9e43-e27dc93a0e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\hash\Math">
+      <UniqueIdentifier>{f34964f9-7eb6-425b-9443-6a95b900efb2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -142,52 +142,52 @@
       <Filter>소스 파일\Greedy</Filter>
     </ClCompile>
     <ClCompile Include="18Math\baek1929.cpp">
-      <Filter>소스 파일\Math</Filter>
+      <Filter>소스 파일\hash\Math</Filter>
     </ClCompile>
     <ClCompile Include="18Math\baek1978.cpp">
-      <Filter>소스 파일\Math</Filter>
+      <Filter>소스 파일\hash\Math</Filter>
     </ClCompile>
     <ClCompile Include="18Math\baek6064.cpp">
-      <Filter>소스 파일\Math</Filter>
+      <Filter>소스 파일\hash\Math</Filter>
     </ClCompile>
     <ClCompile Include="18Math\baek11050.cpp">
-      <Filter>소스 파일\Math</Filter>
+      <Filter>소스 파일\hash\Math</Filter>
     </ClCompile>
     <ClCompile Include="18Math\baek11051.cpp">
-      <Filter>소스 파일\Math</Filter>
+      <Filter>소스 파일\hash\Math</Filter>
     </ClCompile>
     <ClCompile Include="18Math\baek11653.cpp">
-      <Filter>소스 파일\Math</Filter>
+      <Filter>소스 파일\hash\Math</Filter>
     </ClCompile>
     <ClCompile Include="18Math\divisor.cpp">
-      <Filter>소스 파일\Math</Filter>
+      <Filter>소스 파일\hash\Math</Filter>
     </ClCompile>
     <ClCompile Include="18Math\gcd.cpp">
-      <Filter>소스 파일\Math</Filter>
+      <Filter>소스 파일\hash\Math</Filter>
     </ClCompile>
     <ClCompile Include="18Math\equation.cpp">
-      <Filter>소스 파일\Math</Filter>
+      <Filter>소스 파일\hash\Math</Filter>
     </ClCompile>
     <ClCompile Include="18Math\baek15894.cpp">
-      <Filter>소스 파일\Math</Filter>
+      <Filter>소스 파일\hash\Math</Filter>
     </ClCompile>
     <ClCompile Include="18Math\baek4796.cpp">
-      <Filter>소스 파일\Math</Filter>
+      <Filter>소스 파일\hash\Math</Filter>
     </ClCompile>
     <ClCompile Include="18Math\baek2960.cpp">
-      <Filter>소스 파일\Math</Filter>
+      <Filter>소스 파일\hash\Math</Filter>
     </ClCompile>
     <ClCompile Include="18Math\baek1193.cpp">
-      <Filter>소스 파일\Math</Filter>
+      <Filter>소스 파일\hash\Math</Filter>
     </ClCompile>
     <ClCompile Include="18Math\baek1676.cpp">
-      <Filter>소스 파일\Math</Filter>
+      <Filter>소스 파일\hash\Math</Filter>
     </ClCompile>
     <ClCompile Include="18Math\baek4948.cpp">
-      <Filter>소스 파일\Math</Filter>
+      <Filter>소스 파일\hash\Math</Filter>
     </ClCompile>
     <ClCompile Include="18Math\baek9613.cpp">
-      <Filter>소스 파일\Math</Filter>
+      <Filter>소스 파일\hash\Math</Filter>
     </ClCompile>
     <ClCompile Include="16DP\baek12865.cpp">
       <Filter>소스 파일\DP</Filter>
@@ -446,6 +446,9 @@
     </ClCompile>
     <ClCompile Include="16DP\baek2240.cpp">
       <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="20TwoPointer\baek2531.cpp">
+      <Filter>소스 파일\twoPointer</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
