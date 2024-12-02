@@ -1,4 +1,4 @@
-//í•¨ìˆ˜ ì˜¤ë²„ë¼ì´ë”© & í¬ì¸í„° í˜•
+//ÇÔ¼ö ¿À¹ö¶óÀÌµù & Æ÷ÀÎÅÍ Çü
 
 #include <iostream>
 
@@ -20,7 +20,7 @@ public:
 class Second : public First
 {
 public:
-    void MyFunc() // í•¨ìˆ˜ ì˜¤ë²„ë¼ì´ë”© (First í´ë˜ìŠ¤ì— MyFunc()ê°€ ìˆìŒ)
+    void MyFunc() // ÇÔ¼ö ¿À¹ö¶óÀÌµù (First Å¬·¡½º¿¡ MyFunc()°¡ ÀÖÀ½)
     {
         cout << "Second::MyFunc()" << endl;
     }
@@ -33,7 +33,7 @@ public:
 class Third : public Second
 {
 public:
-    void MyFunc() // í•¨ìˆ˜ ì˜¤ë²„ë¼ì´ë”© (Second í´ë˜ìŠ¤ì— MyFunc()ê°€ ìˆìŒ)
+    void MyFunc() // ÇÔ¼ö ¿À¹ö¶óÀÌµù (Second Å¬·¡½º¿¡ MyFunc()°¡ ÀÖÀ½)
     {
         cout << "Third::MyFunc()" << endl;
     }
@@ -46,10 +46,10 @@ public:
 int main()
 {
     Third* third = new Third;
-    Second* second = reinterpret_cast<Second*>(third); // Ok, thirdë¥¼ ë§Œë“¤ë•Œ ì´ë¯¸ Second, First ê°ì²´ë¥¼ ë¬µì‹œì ìœ¼ë¡œ ë§Œë“¤ì—ˆìŒ
-    First* first = second;  // Ok, secondë¥¼ ë§Œë“¤ë•Œ ì´ë¯¸ First ê°ì²´ë¥¼ ë¬µì‹œì ìœ¼ë¡œ ë§Œë“¤ì—ˆìŒ     
-    
-    // í•˜ì§€ë§Œ ë§´ë²„ í•¨ìˆ˜ë¥¼ ì ‘ê·¼í•  ë•Œì—ëŠ” í•´ë‹¹ í´ë˜ìŠ¤ì˜ í•¨ìˆ˜ë§Œ ì ‘ê·¼ ê°€ëŠ¥
+    Second* second = reinterpret_cast<Second*>(third); // Ok, third¸¦ ¸¸µé¶§ ÀÌ¹Ì Second, First °´Ã¼¸¦ ¹¬½ÃÀûÀ¸·Î ¸¸µé¾úÀ½
+    First* first = second;  // Ok, second¸¦ ¸¸µé¶§ ÀÌ¹Ì First °´Ã¼¸¦ ¹¬½ÃÀûÀ¸·Î ¸¸µé¾úÀ½     
+
+    // ÇÏÁö¸¸ ¸É¹ö ÇÔ¼ö¸¦ Á¢±ÙÇÒ ¶§¿¡´Â ÇØ´ç Å¬·¡½ºÀÇ ÇÔ¼ö¸¸ Á¢±Ù °¡´É
     first->MyFunc();
     second->MyFunc();
     third->MyFunc();
@@ -61,15 +61,15 @@ int main()
 
     cout << endl;
 
-    second->Func1(); // Ok, First í´ë˜ìŠ¤ë¥¼ ìƒì†ë°›ì•˜ê¸°ì— Func1()ì— ì ‘ê·¼ ê°€ëŠ¥
-    second->Func2(); // Ok, ìê¸° ìì‹ ì˜ ë©¤ë²„í•¨ìˆ˜
+    second->Func1(); // Ok, First Å¬·¡½º¸¦ »ó¼Ó¹Ş¾Ò±â¿¡ Func1()¿¡ Á¢±Ù °¡´É
+    second->Func2(); // Ok, ÀÚ±â ÀÚ½ÅÀÇ ¸â¹öÇÔ¼ö
 
     cout << endl;
 
-    third->Func1(); // Ok, Third í´ë˜ìŠ¤ëŠ” Second í´ë˜ìŠ¤ë¥¼ í†µí•˜ì—¬ ê²°êµ­ First í´ë˜ìŠ¤ë¥¼ ìƒì† ë°›ì•˜ìŒ 
-    third->Func2(); // Ok, Third í´ë˜ìŠ¤ëŠ” Second í´ë˜ìŠ¤ë¥¼ ìƒì† ë°›ì•˜ìŒ
-    third->Func3(); // Ok, ìê¸° ìì‹ ì˜ ë©¤ë²„í•¨ìˆ˜
+    third->Func1(); // Ok, Third Å¬·¡½º´Â Second Å¬·¡½º¸¦ ÅëÇÏ¿© °á±¹ First Å¬·¡½º¸¦ »ó¼Ó ¹Ş¾ÒÀ½ 
+    third->Func2(); // Ok, Third Å¬·¡½º´Â Second Å¬·¡½º¸¦ »ó¼Ó ¹Ş¾ÒÀ½
+    third->Func3(); // Ok, ÀÚ±â ÀÚ½ÅÀÇ ¸â¹öÇÔ¼ö
 
-    system("pause");    // VC++ ì—ì„œë§Œ
+    system("pause");    // VC++ ¿¡¼­¸¸
     return 0;
 }

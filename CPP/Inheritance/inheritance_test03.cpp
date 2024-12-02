@@ -5,6 +5,14 @@ using namespace std;
 class Person
 {
 public:
+    Person()
+    {
+        cout << "make P\n";
+    }
+    virtual ~Person()
+    {
+        cout << "P destroy\n";
+    }
     void Sleep()
     {
         cout << "Sleep" << endl;
@@ -14,7 +22,15 @@ public:
 class Student : public Person
 {
 public:
-    void Study()
+    Student()
+    {
+        cout << "Make S\n";
+    }
+    virtual ~Student()
+    {
+        cout << "S destroy\n";
+    }
+    virtual void Study()
     {
         cout << "Study" << endl;
     }
@@ -22,8 +38,20 @@ public:
 
 class PartTimeStudent : public Student
 {
-public:
-    void Work()
+public:  
+    PartTimeStudent()
+    {
+        cout << "Make PTS\n";
+    }
+    ~PartTimeStudent()
+    {
+        cout << "PTS destroy\n";
+    }
+    virtual void Study()
+    {
+        cout << "little study T_T \n";
+    }
+    virtual void Work()
     {
         cout << "Work" << endl;
     }
@@ -32,16 +60,22 @@ public:
 int main()
 {
     Person* Kim = new Student;
+    cout << "\n";
     Person* Park = new PartTimeStudent;
+    cout << "\n";
     Student* Lee = new PartTimeStudent;
-
+       
+    cout << "\n";
     Kim->Sleep(); // Student 'IS A' Person.
-    Park->Sleep(); // PartTimeStudent 'IS A' Person.
+    Park->Sleep(); // PartTimeStudent 'IS A' Person.    
     Lee->Study(); // PartTimeStudent 'IS A' Student
     Lee->Sleep();
 
-    delete Kim;
+    cout << "\n";
+    delete Kim; 
+    cout << "\n";
     delete Park;
+    cout << "\n";
     delete Lee;
 
     system("pause");  // VC++ ¿¡¼­¸¸

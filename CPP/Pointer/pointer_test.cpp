@@ -23,8 +23,7 @@ void refSwap(int& p_a, int& p_b)
 }
 
 int main()
-{
-	//=============포인터===============
+{	
 	int p = 1;
 	int q = 6;
 

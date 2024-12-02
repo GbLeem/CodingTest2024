@@ -5,7 +5,7 @@ using namespace std;
 class First
 {
 public:
-    virtual void MyFunc() // ê°€ìƒ í•¨ìˆ˜
+    virtual void MyFunc() // °¡»ó ÇÔ¼ö
     {
         cout << "First::MyFunc()" << endl;
     }
@@ -14,7 +14,7 @@ public:
 class Second : public First
 {
 public:
-    virtual void MyFunc() // ê°€ìƒ í•¨ìˆ˜
+    virtual void MyFunc() override// °¡»ó ÇÔ¼ö
     {
         cout << "Second::MyFunc()" << endl;
     }
@@ -23,7 +23,7 @@ public:
 class Third : public Second
 {
 public:
-    virtual void MyFunc() // ê°€ìƒ í•¨ìˆ˜
+    virtual void MyFunc() override// °¡»ó ÇÔ¼ö
     {
         cout << "Third::MyFunc()" << endl;
     }
@@ -32,19 +32,19 @@ public:
 int main()
 {
     Third* third = new Third;
-    Second* second = third; // Ok, thirdë¥¼ ë§Œë“¤ë•Œ ì´ë¯¸ Second, First ê°ì²´ë¥¼ ë¬µì‹œì ìœ¼ë¡œ ë§Œë“¤ì—ˆìŒ
-    First* first = second;  // Ok, secondë¥¼ ë§Œë“¤ë•Œ ì´ë¯¸ First ê°ì²´ë¥¼ ë¬µì‹œì ìœ¼ë¡œ ë§Œë“¤ì—ˆìŒ
+    Second* second = third; // Ok, third¸¦ ¸¸µé¶§ ÀÌ¹Ì Second, First °´Ã¼¸¦ ¹¬½ÃÀûÀ¸·Î ¸¸µé¾úÀ½
+    First* first = second;  // Ok, second¸¦ ¸¸µé¶§ ÀÌ¹Ì First °´Ã¼¸¦ ¹¬½ÃÀûÀ¸·Î ¸¸µé¾úÀ½
 
-    cout << "address of third (ì¦‰, thrid ì•ˆì˜ ë‚´ìš©  = ì£¼ì†Œ) " << third << endl;
-    cout << "address of second(ì¦‰, second ì•ˆì˜ ë‚´ìš© = ì£¼ì†Œ) " << second << endl;
-    cout << "address of first (ì¦‰, first ì•ˆì˜ ë‚´ìš©  = ì£¼ì†Œ) " << first << endl;
+    cout << "address of third (Áï, thrid ¾ÈÀÇ ³»¿ë  = ÁÖ¼Ò) " << third << endl;
+    cout << "address of second(Áï, second ¾ÈÀÇ ³»¿ë = ÁÖ¼Ò) " << second << endl;
+    cout << "address of first (Áï, first ¾ÈÀÇ ³»¿ë  = ÁÖ¼Ò) " << first << endl;
 
-    // ê°€ìƒí•¨ìˆ˜ë¡œ ì„ ì–¸ëœ ë§´ë²„ í•¨ìˆ˜ë¥¼ ì ‘ê·¼í•  ë•Œì—ëŠ” ì‹¤ì œ ê°ì²´ì˜ ë§´ë²„ í•¨ìˆ˜ í˜¸ì¶œ
-    // ê°€ìƒí•¨ìˆ˜ë¡œ ì„ ì–¸ëœ third = second = first ì¸ ìƒí™©ì´ë¯€ë¡œ thirdì˜ ë§´ë²„ í•¨ìˆ˜ í˜¸ì¶œ
+    // °¡»óÇÔ¼ö·Î ¼±¾ğµÈ ¸É¹ö ÇÔ¼ö¸¦ Á¢±ÙÇÒ ¶§¿¡´Â ½ÇÁ¦ °´Ã¼ÀÇ ¸É¹ö ÇÔ¼ö È£Ãâ
+    // °¡»óÇÔ¼ö·Î ¼±¾ğµÈ third = second = first ÀÎ »óÈ²ÀÌ¹Ç·Î thirdÀÇ ¸É¹ö ÇÔ¼ö È£Ãâ
     first->MyFunc();
     second->MyFunc();
     third->MyFunc();
 
-    system("pause");   // VC++ ì—ì„œë§Œ
+    system("pause");   // VC++ ¿¡¼­¸¸
     return 0;
 }

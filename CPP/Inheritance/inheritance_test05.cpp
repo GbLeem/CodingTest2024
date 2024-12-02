@@ -29,7 +29,7 @@ int main()
 	std::cout << sizeof(Cat) << std::endl; //24 byte
 
 	Animal* polyAnimal = new Cat();
-	polyAnimal->speak(); //Cat 출력
+	polyAnimal->speak(); //Cat 
 	delete polyAnimal;
 
 	return 0;
