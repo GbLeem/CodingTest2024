@@ -1,14 +1,18 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 class B
 {
 public:
-	B() { cout << "constructor\n"; }
-	~B() { cout << "destructor\n"; }
-	B(const B& b) { cout << "copy constructor\n"; }
-	B(B&& b) noexcept { cout << "move constructor\n"; }
+	B() :name("null"){ cout << "constructor\n"; }
+	~B() { cout << name << " destructor\n"; }
+	B(const B& b) :name(b.name) { cout << "copy constructor\n"; }
+	B(B&& b) :name(move(b.name)) { cout << "move constructor\n"; }
+
+	string name;
 };
+
 
 
 B Func()
@@ -55,12 +59,22 @@ T Func1()
 
 int main()
 {
-	B b = Func(); // move
-	
-	cout << "\n\n";
+	//B b = Func(); // move
+	//
+	//cout << "\n\n";
 
-	Func1();
-	Func2(Func1());
+	//Func1();
+	//Func2(Func1());
+
+	//-----------------------------
+	B b1; //constructor 
+	B b2 = b1; //copy constructor
+	B b3{ b1 };//copy constructor
+	B b4{ move(b1) }; //move constructor
+	// b4 --> null destructor
+	// b3 --> null destructor
+	// b2 --> null destructor
+	// b1 -->  destructor (b4가 b1의 ownership 뺏어서 이전에 없어져버림)
 
 	return 0;
 }
