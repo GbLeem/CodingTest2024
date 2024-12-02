@@ -56,8 +56,8 @@ int main()
 
 	for (auto& animalPtr : animals)
 	{
-		animalPtr->speak(); //speak ëŠ” ê°€ìƒí•¨ìˆ˜ë‹ˆê¹Œ ì‹¤ì œë¡œ ê°€ë¦¬í‚¤ëŠ” ê²ƒì´ ì¤‘ìš”
-		animalPtr->Eat();   //Eatì€ ê°€ìƒ í•¨ìˆ˜ì•„ë‹ˆë‹ˆê¹Œ ìë£Œí˜•ì´ ì¤‘ìš”
+		animalPtr->speak(); //speak ´Â °¡»óÇÔ¼ö´Ï±î ½ÇÁ¦·Î °¡¸®Å°´Â °ÍÀÌ Áß¿ä
+		animalPtr->Eat();   //EatÀº °¡»ó ÇÔ¼ö¾Æ´Ï´Ï±î ÀÚ·áÇüÀÌ Áß¿ä
 		delete animalPtr;
 	}
 

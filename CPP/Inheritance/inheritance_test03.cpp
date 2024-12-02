@@ -44,6 +44,6 @@ int main()
     delete Park;
     delete Lee;
 
-    system("pause");  // VC++ ì—ì„œë§Œ
+    system("pause");  // VC++ ¿¡¼­¸¸
     return 0;
 }
