@@ -45,5 +45,11 @@
     <ClCompile Include="Pointer\pointer_to_pointer_test.cpp">
       <Filter>소스 파일\Pointer</Filter>
     </ClCompile>
+    <ClCompile Include="Padding\paddingTest01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="constructor\constructor01.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
