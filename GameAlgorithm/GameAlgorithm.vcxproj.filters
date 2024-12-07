@@ -36,6 +36,15 @@
     <ClCompile Include="BST\main.cpp">
       <Filter>소스 파일\bst</Filter>
     </ClCompile>
+    <ClCompile Include="Sort\bubble.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort\select.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort\insert.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BST\BinarySearchTree.h">

@@ -21,11 +21,17 @@
   <ItemGroup>
     <ClCompile Include="A_star\Astar.cpp" />
     <ClCompile Include="BST\BinarySearchTree.cpp" />
-    <ClCompile Include="BST\main.cpp" />
+    <ClCompile Include="BST\main.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="QuadTree\QuadTree.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Sort\bubble.cpp" />
+    <ClCompile Include="Sort\insert.cpp" />
+    <ClCompile Include="Sort\select.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BST\BinarySearchTree.h" />
